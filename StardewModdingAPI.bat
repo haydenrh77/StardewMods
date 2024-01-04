@@ -21,4 +21,4 @@ if %new% gtr %curr% (
 )
 
 
-start cmd /k Call ".\StardewModdingAPI.exe"
+start cmd /c Call ".\StardewModdingAPI.exe"
