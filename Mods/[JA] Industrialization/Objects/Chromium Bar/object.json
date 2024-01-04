@@ -1,0 +1,17 @@
+{
+    "Name": "Chromium Bar",
+    "Description": "A very powerful and strong alloy.",
+    "Category": "Metal",
+    "Edibility": -300,
+    "Price": 1500,
+    "IsColored": false,
+    "Recipe": null,
+    "NameLocalization": {
+        "zh": "铬锭",
+        "de": "Chrombarren"
+    },
+    "DescriptionLocalization": {
+        "zh": "一种强大的合金。",
+        "de": "Eine sehr harte und mächtige Legierung."
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "Name": "av gravity's pull",
+    "Description": "?",
+    "TranslationKey":"gravity-pull",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": 1,
+    "EdibleIsDrink": true,
+    "ContextTags": ["potion_item"],
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 1000,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 1600,
+    },
+    "Price": 3500,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Dwarf",
+    "PurchasePrice": 7000,
+    "GiftTastes":
+    {
+        "Love": ["Dwarf", "Wizard", "Maru"],
+        "Like": [],
+        "Neutral": ["Gunther", "Victor", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliot", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Linus", "Marnie", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Harvey", "Leah", "Lewis", "Olivia", "Shane", "Willy", "Gregory", "Joel", "Sheila", "Andy", "Claire", "MarlonFey", "Martin", "MorrisTod", "Susan", "Jas", "Leo", "Penny", "Sebastian", "Vincent", "Morgan", "Sophia", "Apples", "Peaches", "Krobus"],
+        "Dislike":[],
+        "Hate": []
+    }
+}

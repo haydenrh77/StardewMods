@@ -1,0 +1,14 @@
+{
+  "Name": "[JA] Alchemist's Valley",
+  "Author": "Dolly",
+  "Version": "1.2.0",
+  "Description": "Adds potions and cauldron.",
+  "UniqueID": "Dolly.AlchemistValley",
+  "UpdateKeys": [
+    "Nexus:19284"
+  ],
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets",
+    "MinimumVersion": "1.10.14"
+  }
+}

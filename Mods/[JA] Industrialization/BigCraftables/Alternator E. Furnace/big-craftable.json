@@ -1,0 +1,38 @@
+{
+    "Name": "Alternator E. Furnace",
+    "Description": "This version of the furnace allows automate control, which smelts only crushed metals.",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 6,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": "Brick",
+                "Count": 10
+            },
+            {
+                "Object": 334,
+                "Count": 4
+            },
+            {
+                "Object": 335,
+                "Count": 2
+            },
+            {
+                "Object": 787,
+                "Count": 2
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+    "NameLocalization": {
+        "zh": "交流电炉",
+        "de": "Wechselstrom-Ofen"
+    },
+    "DescriptionLocalization": {
+        "zh": "允许自动化控制的电炉，只烧炼粉碎金属。",
+        "de": "Diese Variante eines Elektro-Ofens verarbeitet keine Erze sondern ausschließlich pulverförmiges Metall."
+    }
+}

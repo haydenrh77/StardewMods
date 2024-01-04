@@ -1,0 +1,125 @@
+﻿{
+  "Format": "1.29.0",
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Dolly.CruelJoke",
+      "FromFile": "assets/icon_laugh.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Dolly.Nightfall",
+      "FromFile": "assets/icon_moon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Dolly.FountainofYouth",
+      "FromFile": "assets/icon_fountain.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Dolly.Positivity",
+      "FromFile": "assets/icon_fairy.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Dolly.Sanctuary",
+      "FromFile": "assets/icon_sanctuary.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Dolly.CaptivatingVoice",
+      "FromFile": "assets/icon_mermaid.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "aedenthorn.BuffFramework/dictionary",
+      "LogName": "",
+      "Entries": {
+        "Dolly.CruelJoke": {
+          "consume": "av laughing potion",
+          "speed": -2,
+          "duration": 60,
+          "source": "Dolly.CruelJoke",
+          "displaySource": "{{i18n:cruel.joke.buff}}",
+          "description": "{{i18n:cruel.joke.description}}",
+          "buffId": 137666,
+          "sound": "cacklingWitch",
+          "texturePath": "Dolly.CruelJoke"
+        },
+        "Dolly.Nightfall": {
+          "which": 26,
+          "consume": "av moon beam",
+          "staminaRegen": 1,
+          "healthRegen": 1,
+          "speed": 1,
+          "duration": 100,
+          "source": "Dolly.Nightfall",
+          "displaySource": "{{i18n:night.fall.buff}}",
+          "description": "{{i18n:night.fall.description}}",
+          "buffId": 137777,
+          "sound": "Nightfall",
+          "texturePath": "Dolly.Nightfall"
+        },
+        "Dolly.FountainofYouth": {
+          "consume": "av rejuvenating elixir",
+          "maxStamina": 75,
+          "healthRegen": 1,
+          "staminaRegen": 2,
+          "duration": 300,
+          "source": "Dolly.FountainofYouth",
+          "displaySource": "{{i18n:fountain.youth.buff}}",
+          "description": "{{i18n:fountain.youth.description}}",
+          "buffId": 137888,
+          "sound": "healSound",
+          "texturePath": "Dolly.FountainofYouth"
+        },
+        "Dolly.Positivity": {
+          "consume": "av fairy's kiss",
+          "luck": 2,
+          "speed": 2,
+          "duration": 300,
+          "source": "Dolly.Positivity",
+          "displaySource": "{{i18n:positivity.buff}}",
+          "description": "{{i18n:positivity.description}}",
+          "buffId": 137999,
+          "sound": "yoba",
+          "texturePath": "Dolly.Positivity"
+        },
+        "Dolly.Sanctuary": {
+          "consume": "av sea breeze",
+          "luck": 1,
+          "fishing": 3,
+          "duration": 300,
+          "source": "Dolly.Sanctuary",
+          "displaySource": "{{i18n:sanctuary.buff}}",
+          "description": "{{i18n:sanctuary.description}}",
+          "buffId": 137444,
+          "sound": "Sanctuary",
+          "texturePath": "Dolly.Sanctuary"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "aedenthorn.BuffFramework/dictionary",
+      "LogName": "",
+      "Entries": {
+        "Dolly.CaptivatingVoice": {
+          "consume": "av mermaid's song",
+          "duration": 70,
+          "source": "Dolly.CaptivatingVoice",
+          "displaySource": "{{i18n:captivating.voice.buff}}",
+          "description": "{{i18n:captivating.voice.description}}",
+          "buffId": 137555,
+          "sound": "Mermaid",
+          "texturePath": "Dolly.CaptivatingVoice"
+        }
+      },
+      "When": {
+        "LocationName": "Beach"
+      },
+      "Update": "OnLocationChange"
+    }
+  ]
+}

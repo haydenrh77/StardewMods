@@ -1,0 +1,18 @@
+{
+   "Name": "Industrialization for SDV",
+   "Author": "DraLUSAD, Kazuakisama",
+   "Description": "Adds factory like machines",
+   "Version": "3.4.0",
+   "MinimumApiVersion": "3.0.1",
+   "UniqueID": "Kazuakisama.PFM.Industrialization",
+   "ContentPackFor": {
+       "UniqueID": "DIGUS.ProducerFrameworkMod"
+    },
+   "Dependencies": [
+   {
+      "UniqueID": "Kazuakisama.JA.Industrialization",
+      "IsRequired": true,
+   },
+],
+"UpdateKeys": [ "Nexus:5102" ],
+}

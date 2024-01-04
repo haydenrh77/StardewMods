@@ -1,0 +1,23 @@
+{
+
+// Buffs & Debuffs  
+ 
+"cruel.joke.buff":"\nLaughing Potion \nCruel Joke",
+"cruel.joke.description":"You are laughing so hard that you think your lungs will pop. \nSpeed -2",
+
+"night.fall.buff":"\nMoon Beam \nNightfall",
+"night.fall.description":"You feel all thoughts and worries fading away. \nStamina Regen +1 \nHealth Regen +1",
+
+"fountain.youth.buff":"\nRejuvenating Elixir \nFountain of Youth",
+"fountain.youth.description":"You feel rejuvenated and full of life. \nMax Stamina +75 \nHealth Regen +1 \nStamina Regen +2",
+
+"positivity.buff":"\nFairy's Kiss \nPositivity",
+"positivity.description":"You feel like you can do anything! \nLuck 2 \nSpeed 2",
+
+"sanctuary.buff":"\nSea Breeze \nSanctuary",
+"sanctuary.description":"A gentle breeze surrounds you. You feel like nothing can break your focus. \nLuck +1 \nFishing +3",
+
+"captivating.voice.buff":"\nMermaid's Song \nCaptivating Voice",
+"captivating.voice.description":"The sea inspires you to sing."
+
+}

@@ -1,0 +1,38 @@
+{
+    "Name": "av sea breeze",
+    "Description": "?",
+    "TranslationKey":"sea-breeze",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": 20,
+    "EdibleIsDrink": true,
+    "ContextTags": ["potion_item"],
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 0,
+    },
+    "Price": 265,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Willy",
+    "PurchasePrice": 530,
+    "GiftTastes":
+    {
+        "Love": ["Willy", "Elliot", "Leo"],
+        "Like": [],
+        "Neutral": ["Gunther", "Victor", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Harvey", "Leah", "Lewis", "Olivia", "Shane", "Gregory", "Joel", "Sheila", "Andy", "Claire", "MarlonFey", "Martin", "MorrisTod", "Susan", "Jas", "Penny", "Sebastian", "Vincent", "Morgan", "Sophia", "Apples", "Peaches", "Krobus", "Wizard", "Dwarf"],
+        "Dislike":[],
+        "Hate": []
+    }
+}

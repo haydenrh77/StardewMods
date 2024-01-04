@@ -1,0 +1,28 @@
+{
+  "Farming Basket.name": "Panier",
+  "Farming Basket.description": "Un panier pour les fruits, fleurs et légumes de la ferme.",
+
+  "Foraging Basket.name": "Panier à cueillette",
+  "Foraging Basket.description": "Un panier pour le bois ou les cueillettes.",
+
+  "Fishing Pouch.name": "Poche de pêche",
+  "Fishing Pouch.description": "Une bonne vieille poche pour vos prises à écaille.",
+
+  "Mining Pouch.name": "Sacoche de minage",
+  "Mining Pouch.description": "Peut stocker une bonne quantité de butin.",
+
+  "Collecting Pouch.name": "Grande Sacoche",
+  "Collecting Pouch.description": "Une grande poche parfaite pour tout type d'objet ramassé.",
+
+  "Oasis Chest.name": "Cache de l'oasis",
+  "Oasis Chest.description": "Un type de cache secrète appartenant à une ancienne civilisation.",
+
+  "Golden Dwarf Chest.name": "Coffre d'or de nain",
+  "Golden Dwarf Chest.description": "Un coffre doré avec une très grande capacité de stockage.",
+
+  "Galaxy Chest.name": "Coffre Galactique",
+  "Galaxy Chest.description": "Du stockage au niveau galactique...",
+
+  "Galaxy Link.name": "Lien Galactique",
+  "Galaxy Link.description": "Vous êtes relié à la galaxie... Mais Mr.Qi possède une version plus récente.",
+}

@@ -1,0 +1,17 @@
+{
+    "Name": "Pulverized Radioactive Metal",
+    "Description": "Large pile of pure radioactive material, must be smelted in an Electric Furnace.",
+    "Category": "Metal",
+    "Edibility": -300,
+    "Price": 600,
+    "IsColored": false,
+    "Recipe": null,
+    "NameLocalization": {
+        "zh": "放射性矿粉",
+        "de": "Goldpulver"
+    },
+    "DescriptionLocalization": {
+        "zh": "一大堆纯净的放射性矿粉，必须在电炉里冶炼。",
+        "de": "In Pulver zermahlenes reines Gold. Muss in einem Elektro-Ofen geschmolzen werden."
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "Name": "av rejuvenating elixir",
+    "Description": "?",
+    "TranslationKey":"rejuvenating-elixir",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": 380,
+    "EdibleIsDrink": true,
+    "ContextTags": ["potion_item"],
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 0,
+    },
+    "Price": 1250,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Saloon",
+    "PurchasePrice": 2500,
+    "GiftTastes":
+    {
+        "Love": ["MarlonFey", "Andy", "George", "Lewis", "Evelyn"],
+        "Like": ["Gunther", "Caroline", "Clint", "Demetrius", "Gus", "Jodi", "Kent", "Marnie", "Pam", "Pierre", "Robin", "Olivia", "MorrisTod",],
+        "Neutral": ["Victor", "Abigail", "Alex", "Elliot", "Emily", "Haley", "Maru", "Sam", "Sandy", "Harvey", "Leah", "Shane", "Willy", "Gregory", "Joel", "Sheila", "Claire", "Martin", "Susan", "Penny", "Sebastian", "Sophia", "Apples", "Peaches", "Krobus", "Wizard", "Dwarf", "Linus"],
+        "Dislike":[],
+        "Hate": ["Morgan", "Vincent", "Leo", "Jas"]
+    }
+}

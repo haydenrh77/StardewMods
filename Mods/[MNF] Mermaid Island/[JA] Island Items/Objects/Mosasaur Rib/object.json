@@ -1,0 +1,6 @@
+{
+  "Name": "Mosasaur Rib",
+  "Description": "A rib from a pre-historic marine creature.",
+   "Price": 100,
+  "ContextTags": ["bone_item", "color_white", "prehistoric_item", "fossil_item", "prehistoric_l_bone"]
+}

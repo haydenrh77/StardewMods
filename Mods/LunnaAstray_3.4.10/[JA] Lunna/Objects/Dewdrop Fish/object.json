@@ -1,0 +1,22 @@
+{
+	"Name": "Dewdrop Fish",
+	"Description": "An ancient fish named for its shape.",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 55,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Willy"],
+	},
+	"NameLocalization":
+	{
+		//
+	},
+	"DescriptionLocalization":
+	{
+		//
+	},
+}

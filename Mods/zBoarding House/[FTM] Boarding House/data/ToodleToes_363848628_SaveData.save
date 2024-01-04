@@ -1,0 +1,689 @@
+{
+  "WeatherForYesterday": "Sunny",
+  "LNOSCounter": {
+    "TheLostValleyPathBlock": 1
+  },
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Custom_BoardingHouse_TheLostValley",
+      "Name": null,
+      "Tile": "94, 22",
+      "Type": "ResourceClump",
+      "ID": 602,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine5",
+      "Name": null,
+      "Tile": "80, 16",
+      "Type": "Forage",
+      "ID": 420,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine5",
+      "Name": null,
+      "Tile": "14, 26",
+      "Type": "Forage",
+      "ID": 420,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine2B",
+      "Name": null,
+      "Tile": "7, 23",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Sap",
+            "Stack": 5,
+            "PercentChanceToSpawn": 5
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine2B",
+      "Name": null,
+      "Tile": "43, 25",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine2B",
+      "Name": null,
+      "Tile": "14, 13",
+      "Type": "Forage",
+      "ID": 80,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine2B",
+      "Name": null,
+      "Tile": "9, 17",
+      "Type": "Forage",
+      "ID": 80,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine2A",
+      "Name": null,
+      "Tile": "37, 26",
+      "Type": "Forage",
+      "ID": 86,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine1A",
+      "Name": null,
+      "Tile": "40, 30",
+      "Type": "Forage",
+      "ID": 404,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine1A",
+      "Name": null,
+      "Tile": "52, 7",
+      "Type": "Forage",
+      "ID": 404,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_TheLostValley",
+      "Name": "Macadamia Nut",
+      "Tile": "34, 22",
+      "Type": "Forage",
+      "ID": 3418,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_Ruins_House2",
+      "Name": null,
+      "Tile": "27, 28",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Prehistoric Handaxe",
+            "Stack": 1,
+            "PercentChanceToSpawn": 1
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_Ruins_House2",
+      "Name": null,
+      "Tile": "28, 7",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_Ruins_House2",
+      "Name": null,
+      "Tile": "26, 29",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_Ruins_House2",
+      "Name": null,
+      "Tile": "21, 19",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_Ruins_House1",
+      "Name": null,
+      "Tile": "9, 14",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Prehistoric Tibia",
+            "Stack": 1,
+            "PercentChanceToSpawn": 1
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_Ruins_House1",
+      "Name": null,
+      "Tile": "6, 17",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine5",
+      "Name": null,
+      "Tile": "13, 26",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine5",
+      "Name": null,
+      "Tile": "88, 26",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine5",
+      "Name": null,
+      "Tile": "78, 13",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [
+          {
+            "Category": "Ring",
+            "Name": "Jade Ring",
+            "Stack": 1,
+            "PercentChanceToSpawn": 1
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine5",
+      "Name": null,
+      "Tile": "52, 23",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [
+          {
+            "Category": "Object",
+            "Name": "Chipped Amphora Piece 2",
+            "Stack": 1,
+            "PercentChanceToSpawn": 5
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine5",
+      "Name": null,
+      "Tile": "77, 14",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": [
+          {
+            "Category": "Ring",
+            "Name": "Topaz Ring",
+            "Stack": 1,
+            "PercentChanceToSpawn": 1
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine5",
+      "Name": null,
+      "Tile": "89, 25",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine5",
+      "Name": null,
+      "Tile": "12, 27",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine5",
+      "Name": null,
+      "Tile": "27, 8",
+      "Type": "Forage",
+      "ID": 420,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine4",
+      "Name": null,
+      "Tile": "45, 56",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "chest",
+        "Contents": [
+          {
+            "Category": "object",
+            "Name": "Artifact Trove",
+            "Stack": 3
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine4",
+      "Name": null,
+      "Tile": "5, 20",
+      "Type": "Forage",
+      "ID": 86,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine4",
+      "Name": null,
+      "Tile": "21, 21",
+      "Type": "Forage",
+      "ID": 420,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine4",
+      "Name": null,
+      "Tile": "25, 74",
+      "Type": "Forage",
+      "ID": 86,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine4",
+      "Name": null,
+      "Tile": "11, 76",
+      "Type": "Forage",
+      "ID": 420,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine3",
+      "Name": null,
+      "Tile": "24, 65",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine3",
+      "Name": null,
+      "Tile": "48, 65",
+      "Type": "Forage",
+      "ID": 86,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine3",
+      "Name": null,
+      "Tile": "27, 69",
+      "Type": "Forage",
+      "ID": 86,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine2B",
+      "Name": null,
+      "Tile": "42, 24",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "chest",
+        "Contents": [
+          749
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine2A",
+      "Name": null,
+      "Tile": "17, 25",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "chest",
+        "Contents": [
+          {
+            "Category": "object",
+            "Name": 874,
+            "Stack": 3
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine2A",
+      "Name": null,
+      "Tile": "36, 24",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine2A",
+      "Name": null,
+      "Tile": "22, 16",
+      "Type": "Forage",
+      "ID": 80,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine1B",
+      "Name": null,
+      "Tile": "21, 29",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "chest",
+        "Contents": [
+          749
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine1B",
+      "Name": null,
+      "Tile": "27, 31",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine1B",
+      "Name": null,
+      "Tile": "64, 6",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine1B",
+      "Name": null,
+      "Tile": "21, 31",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine1B",
+      "Name": null,
+      "Tile": "18, 30",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "crate",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine1B",
+      "Name": null,
+      "Tile": "28, 32",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "barrel",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine1B",
+      "Name": null,
+      "Tile": "42, 11",
+      "Type": "Forage",
+      "ID": 80,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine1B",
+      "Name": null,
+      "Tile": "32, 10",
+      "Type": "Forage",
+      "ID": 80,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine1A",
+      "Name": null,
+      "Tile": "75, 5",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "chest",
+        "Contents": [
+          693
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine1A",
+      "Name": null,
+      "Tile": "67, 12",
+      "Type": "Forage",
+      "ID": 80,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine1A",
+      "Name": null,
+      "Tile": "66, 17",
+      "Type": "Forage",
+      "ID": 80,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine1A",
+      "Name": null,
+      "Tile": "34, 13",
+      "Type": "Forage",
+      "ID": 80,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

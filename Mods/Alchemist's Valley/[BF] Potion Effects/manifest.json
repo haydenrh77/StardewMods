@@ -1,0 +1,28 @@
+{
+  "Name": "[BF] Potion Effects",
+  "Author": "Dolly",
+  "Version": "1.2.0",
+  "Description": "Potions effects for Alchemist's Valley.",
+  "UniqueID": "Dolly.PotionEffects",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "aedenthorn.BuffFramework",
+      "IsRequired": "true"
+    },
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": "true"
+    },
+    {
+      "UniqueID": "spacechase0.JsonAssets",
+      "IsRequired": "true"
+    },
+    {
+      "UniqueID": "Dolly.AlchemistValley",
+      "IsRequired": "true"
+    }
+  ]
+}

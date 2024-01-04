@@ -1,0 +1,21 @@
+{
+  "SeasonalEdits": "true",
+  "ReplaceDefaultFences": "true",
+  "ReplaceHardwoodFences": "false",
+  "ImmersiveShadows": "true",
+  "MistEffects": "true",
+  "OriginalMinesEntrance": "false",
+  "AlternativeCraftables": "false",
+  "RemoveObjectsFromGrandpasShed": "false",
+  "RemoveSouthernCactusesFromDesert": "false",
+  "DisableSVEJojaMartShop": "false",
+  "BalancedCrafting": "false",
+  "HarderBuildingConstruction": "false",
+  "StrongerMonsters": "false",
+  "OlderSophiaPortraits": "true",
+  "VanillaSandyPortraits": "false",
+  "MatureEvents": "true",
+  "ShorterPathToBlueMoonVineyard": "false",
+  "UseGaldoranThemeAllTimes": "false",
+  "DisableGaldoranTheme": "false"
+}

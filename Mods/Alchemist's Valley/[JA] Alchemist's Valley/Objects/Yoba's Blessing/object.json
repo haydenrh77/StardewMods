@@ -1,0 +1,38 @@
+{
+    "Name": "av yoba's blessing",
+    "Description": "?",
+    "TranslationKey":"yoba-blessing",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": 160,
+    "EdibleIsDrink": true,
+    "ContextTags": ["potion_item"],
+    "EdibleBuffs":
+    {
+        "Farming": 5,
+        "Fishing": 5,
+        "Mining": 5,
+        "Luck": 5,
+        "Foraging": 5,
+        "MaxStamina": 50,
+        "MagnetRadius": 35,
+        "Speed": 2,
+        "Defense": 5,
+        "Attack": 5,
+        "Duration": 300,
+    },
+    "Price": 7500,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 15000,
+    "GiftTastes":
+    {
+        "Love": ["Gunther", "Victor", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliot", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Harvey", "Leah", "Lewis", "Olivia", "Shane", "Willy", "Gregory", "Joel", "Sheila", "Andy", "Claire", "MarlonFey", "Martin", "MorrisTod", "Susan", "Jas", "Leo", "Penny", "Sebastian", "Vincent", "Morgan", "Sophia", "Apples", "Peaches", "Krobus", "Wizard", "Dwarf"],
+        "Like": [],
+        "Neutral": [],
+        "Dislike":[],
+        "Hate": []
+    }
+}

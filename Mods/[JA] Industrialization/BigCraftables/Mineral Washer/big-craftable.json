@@ -1,0 +1,38 @@
+{
+    "Name": "Mineral Washer",
+    "Description": "Cleans up minerals to improve quality.",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 6,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": "Brick",
+                "Count": 10
+            },
+            {
+                "Object": 334,
+                "Count": 12
+            },
+            {
+                "Object": 335,
+                "Count": 8
+            },
+            {
+                "Object": 787,
+                "Count": 2
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+    "NameLocalization": {
+        "zh": "洗矿机",
+        "de": "Mineral-Wäscher"
+    },
+    "DescriptionLocalization": {
+        "zh": "清洗矿物以提高品质。",
+        "de": "Verbessert die Qualität von Mineralen bis hin zur Iridiumqualität."
+    }
+}

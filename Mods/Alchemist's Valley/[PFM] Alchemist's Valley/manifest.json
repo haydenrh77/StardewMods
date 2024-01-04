@@ -1,0 +1,21 @@
+﻿{
+  "Name": "[PFM] Alchemist's Valley",
+  "Author": "Dolly",
+  "Version": "1.2.0",
+  "Description": "Make your own potions in the Cauldron",
+  "UniqueID": "Dolly.PFMAlchemistValley",
+  "ContentPackFor": {
+    "UniqueID": "DIGUS.ProducerFrameworkMod",
+    "MinimumVersion": "1.7.4"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "DIGUS.ProducerFrameworkMod",
+      "IsRequired": "true"
+    },
+    {
+      "UniqueID": "Dolly.AlchemistValley",
+      "IsRequired": "true"
+    }	
+  ]
+}

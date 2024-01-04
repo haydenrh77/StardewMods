@@ -1,0 +1,34 @@
+{
+    "Name": "Super Garden Cloche",
+    "Description": "A powered up version of the garden cloche, supply it with 480 of the same seed, and in return, get iridium quality crops (Time varies).",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 2,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": "Chromium Bar",
+                "Count": 400
+            },
+            {
+                "Object": "Brick",
+                "Count": 999
+            },
+            {
+                "Object": 369,
+                "Count": 999
+            },
+            {
+                "Object": 336,
+                "Count": 400
+            },
+            {
+                "Object": 787,
+                "Count": 200
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+}

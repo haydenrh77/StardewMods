@@ -1,0 +1,167 @@
+{
+	"Format":"1.27",
+	"Changes":[
+//BH
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_BoardingHouse_TheLostValley",
+	 "MapProperties": {
+		"Music": "HidValBH"
+		},
+},
+
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_BoardingHouse_AbandonedMine1A, Maps/Custom_BoardingHouse_AbandonedMine1B, Maps/Custom_BoardingHouse_AbandonedMine2A, Maps/Custom_BoardingHouse_AbandonedMine2B, Maps/Custom_BoardingHouse_AbandonedMine3, Maps/Custom_BoardingHouse_AbandonedMine4, Maps/Custom_BoardingHouse_AbandonedMine5",
+	 "MapProperties": {
+		"Music": "MystMinesBH"
+		},
+},
+//Mermaid Island
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_MermaidIsland",
+	 "MapProperties": {
+		"Music": "MITimeMI"
+		},
+         "Update": "OnTimeChange",
+         "When": {
+                "Time": "{{range:0600, 2000}}",
+                "Weather |contains=rain,storm": false,
+            	},
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_MermaidIsland",
+	 "MapProperties": {
+		"Music": "SumMarkMI"
+		},
+         "Update": "OnTimeChange",
+         "When": {
+                "Time": "{{range:0600,2000}}",
+                "Season": "summer",
+		"Day": "15,16",
+                "Weather |contains=rain,storm": false,
+            	},
+},
+
+//Vanilla Because Yes
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_BoardingHouse_MineEntrance",
+	 "MapProperties": {
+		"Music": "Upper_Ambient"
+		},
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_BoardingHouse_GregoryTent",
+	 "MapProperties": {
+		"Music": "shaneTheme"
+		},
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_BoardingHouse_Ruins",
+	 "MapProperties": {
+		"Music": "tribal"
+		},
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_BoardingHouse_BuffalosRanch, Maps/Custom_BoardingHouse_BoardingHouse, Maps/Custom_BoardingHouse_BoardingHouse2",
+	 "MapProperties": {
+		"Music": "jaunty"
+		},
+         "Update": "OnTimeChange",
+         "When": {
+                "Time": "{{range:0600,2000}}",
+		},
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_BoardingHouse_BackwoodsPlateau",
+	 "MapProperties": {
+                "Music": "{{season}}{{random:1,2,3}}"
+            	},
+         "Update": "OnTimeChange",
+         "When": {
+                "Weather |contains=rain,storm": false
+            	},
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_BoardingHouse_BackwoodsPlateau",
+	 "MapProperties": {
+                "Music": "rain"
+            	},
+         "When": {
+                "Weather |contains=rain,storm": true
+            	},
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_BoardingHouse_BackwoodsPlateau",
+         "MapProperties": {
+                "Music": "spring_night_ambient"
+           	},
+         "Update": "OnTimeChange",
+         "When": {
+                "Time": "{{range:1900, 2600}}",
+                "Weather |contains=rain,storm": false,
+                "Season": "summer, spring, fall"
+            	},
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_MermaidIsland",
+	 "MapProperties": {
+                "Music": "rain"
+            	},
+         "When": {
+                "Weather |contains=rain,storm": true
+            	},
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_MermaidIsland",
+	 "MapProperties": {
+		"Music": "spring_night_ambient"
+		},
+         "Update": "OnTimeChange",
+         "When": {
+                "Time": "{{range:2100, 2600}}",
+                "Weather |contains=rain,storm": false,
+                "Season": "summer, spring, fall"
+            	},
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/Custom_BaitShop",
+	 "MapProperties": {
+                "Music": "elliottPiano"
+            	},
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/BoatTunnel",
+	 "MapProperties": {
+                "Music": "rain"
+            	},
+         "When": {
+                "Weather |contains=rain,storm": true
+            	},
+},
+{
+         "Action": "EditMap",
+         "Target": "Maps/BoatTunnel",
+	 "MapProperties": {
+                "Music": "ocean"
+            	},
+         "When": {
+                "Weather |contains=rain,storm": false
+            	},
+},
+]
+}
+

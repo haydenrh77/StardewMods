@@ -1,0 +1,6 @@
+{
+  "Name": "Mosasaur Scapula",
+  "Description": "A weird looking scapula, doesn't seem to belong to an existing specie of animal.",
+   "Price": 100,
+  "ContextTags": ["bone_item", "color_white", "prehistoric_item", "fossil_item", "prehistoric_l_bone"]
+}

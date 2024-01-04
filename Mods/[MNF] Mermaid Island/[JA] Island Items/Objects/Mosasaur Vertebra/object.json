@@ -1,0 +1,6 @@
+{
+  "Name": "Mosasaur Vertebra",
+  "Description": "A vertebra of an aquatic reptile from pre-historic era.",
+   "Price": 100,
+  "ContextTags": ["bone_item", "color_white", "prehistoric_item", "fossil_item", "prehistoric_bone"]
+}

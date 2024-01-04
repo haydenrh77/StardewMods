@@ -1,0 +1,38 @@
+{
+    "Name": "av nectar",
+    "Description": "?",
+    "TranslationKey":"nectar",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": 120,
+    "EdibleIsDrink": true,
+    "ContextTags": ["potion_item"],
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 1,
+        "Foraging": 5,
+        "MaxStamina": 25,
+        "MagnetRadius": 25,
+        "Speed": 1,
+        "Defense": 0,
+        "Attack": 2,
+        "Duration": 300,
+    },
+    "Price": 1375,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 2750,
+    "GiftTastes":
+    {
+        "Love": ["Gunther", "Victor", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliot", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Harvey", "Leah", "Lewis", "Olivia", "Shane", "Willy", "Gregory", "Joel", "Sheila", "Andy", "Claire", "MarlonFey", "Martin", "MorrisTod", "Susan", "Penny", "Sebastian", "Sophia", "Apples", "Peaches", "Krobus", "Wizard", "Dwarf", "Jas", "Vincent", "Leo", "Morgan"],
+        "Like": [],
+        "Neutral": [],
+        "Dislike":[],
+        "Hate": []
+    }
+}

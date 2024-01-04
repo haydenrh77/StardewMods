@@ -1,0 +1,17 @@
+{
+    "Name": "Pulverized Prismatic Shard",
+    "Description": "Large pile of pure Prismatic stone, must be combined with Pulverised Iridium & Quartz.",
+    "Category": "Crafting",
+    "Edibility": -300,
+    "Price": 90,
+    "IsColored": false,
+    "Recipe": null,
+    "NameLocalization": {
+        "zh": "五彩粉",
+        "de": "Prismatisches Pulver"
+    },
+    "DescriptionLocalization": {
+        "zh": "一大堆纯净的五彩粉，必须和铱粉和石英粉混合。",
+        "de": "In Pulver zermahlene Primatische Scherbe. Muss in einem Elektro-Ofen geschmolzen werden."
+    }
+}

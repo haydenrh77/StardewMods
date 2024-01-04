@@ -1,0 +1,38 @@
+{
+    "Name": "Electric Furnace",
+    "Description": "Smelts regular and crushed ores at twice the speed, doesn't need coal to operate.",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 6,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": "Brick",
+                "Count": 5
+            },
+            {
+                "Object": 334,
+                "Count": 3
+            },
+            {
+                "Object": 390,
+                "Count": 30
+            },
+            {
+                "Object": 787,
+                "Count": 1
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+    "NameLocalization": {
+        "zh": "电炉",
+        "de": "Elektro-Ofen"
+    },
+    "DescriptionLocalization": {
+        "zh": "以两倍的速度烧制原矿和碎矿，不需要煤来运转。",
+        "de": "Schmilzt erz- und pulverförmiges Metall mit 2-facher Geschwindigkeit. Benötigt KEINE Kohle zum Betrieb."
+    }
+}

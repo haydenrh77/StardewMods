@@ -1,0 +1,20 @@
+[
+    {
+        "Id": "Mermaid",
+        "Filepath": "Song.wav",
+        "Category": "Music",
+		"Settings": { "Loop": true }
+    },
+    {
+        "Id": "Sanctuary",
+        "Filepath": "Breeze.wav",
+        "Category": "Ambient",
+		"Settings": { "Loop": true }
+    },
+    {
+        "Id": "Nightfall",
+        "Filepath": "Night.wav",
+        "Category": "Ambient",
+		"Settings": { "Loop": true }
+    }
+]

@@ -1,0 +1,82 @@
+{
+   "Format": "1.13",
+   "DynamicTokens": [
+      {
+         "Name": "CleanSewer",
+         "Value": true
+      },
+      {
+         "Name": "CleanSewer",
+         "Value": false,
+         "When": {
+            "HasMod": "MouseyPounds.ShadowFestival",
+            "DayEvent": "spirit's eve"
+         }
+      }
+   ],
+   "Changes": [
+      {
+         "Action": "Load",
+         "Target": "Maps/Sewer",
+         "FromFile": "assets/Sewer.tmx",
+         "When": {
+            "CleanSewer": true
+         }
+      },
+     {
+         "Action": "EditImage",
+         "Target": "LooseSprites/steamAnimation",
+         "FromFile": "assets/steamAnimation1.png",
+         "When": {
+            "CleanSewer": true
+         }
+      },
+      {
+         "Action": "EditMap",
+         "Target": "Maps/Sewer",
+         "FromFile": "assets/Sewer_Zuzu.tmx",
+         "FromArea": {
+            "X": 4,
+            "Y": 0,
+            "Width": 9,
+            "Height": 9
+         },
+         "ToArea": {
+            "X": 4,
+            "Y": 0,
+            "Width": 9,
+            "Height": 9
+         },
+         "When": {
+            "CleanSewer": true,
+            "HasMod": "DTZ.DowntownZuzuCP"
+         }
+      },
+      {
+         "Action": "EditMap",
+         "Target": "Maps/Sewer",
+         "When": {
+            "HasMod": "FlashShifter.StardewValleyExpandedCP"
+         },
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 16,
+                  "Y": 9
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "TouchAction": "Warp Town 34 97"
+               }
+            }
+         ]
+      },
+      {
+         "Action": "EditData",
+         "Target": "Strings/StringsFromMaps",
+         "Entries": {
+            "Sewers.001": "You wipe away a layer of moss to reveal a message; it's in an alphabet unfamiliar to you... "
+         }
+      }
+   ]
+}

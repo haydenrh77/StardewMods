@@ -1,0 +1,71 @@
+{
+  "Version": "1.0.0",
+  "Entries": {
+    "Pam": {
+      "Entries": {
+        "Love": [
+          {
+            "ItemId": 24
+          }
+        ]
+      }
+    },
+    "Shane": {
+      "Entries": {
+        "Like": [
+          {
+            "ItemId": 296
+          }
+        ]
+      }
+    },
+    "Claire": {
+      "Entries": {
+        "Like": [
+          {
+            "ItemId": 68
+          },
+          {
+            "ItemId": 66
+          }
+        ]
+      }
+    },
+    "Eloise": {
+      "Entries": {
+        "Like": [
+          {
+            "ItemId": 188
+          }
+        ]
+      }
+    },
+    "Andy": {
+      "Entries": {
+        "Like": [
+          {
+            "ItemId": 296
+          }
+        ]
+      }
+    },
+    "Pierre": {
+      "Entries": {
+        "Like": [
+          {
+            "ItemId": 18
+          }
+        ]
+      }
+    },
+    "Emily": {
+      "Entries": {
+        "Love": [
+          {
+            "ItemId": 66
+          }
+        ]
+      }
+    }
+  }
+}

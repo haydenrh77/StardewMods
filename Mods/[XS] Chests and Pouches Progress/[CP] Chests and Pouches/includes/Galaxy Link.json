@@ -1,0 +1,54 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "Jrn.CaPCP/Galaxy Link",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "Galaxy Link": {
+          "DisplayName": "{{i18n: Galaxy Link.name}}",
+          "Description": "{{i18n: Galaxy Link.description}}",
+          "Image": "Jrn.CaPCP/Galaxy Link",
+          "PlayerColor": false,
+          "IsPlaceable": false,
+          "SpecialChestType": "JunimoChest",
+          "BetterChestsData": {
+            "CustomColorPicker": "Disabled",
+            "OpenHeldChest": "Enabled",
+            "ResizeChest": "Enabled",
+            "ResizeChestCapacity": -1
+          }
+        }
+      }
+    },
+
+    // Add Crafting Recipe
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Galaxy Link": "848 500 896 10 279 10 852 25 787 50 336 250 337 250 910 120 768 850 769 850/Home/232/true/null/{{i18n: Galaxy Link.name}}"
+      }
+    },
+
+    // Add Buyable
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Buy",
+      "Entries": {
+        "Galaxy Link": {
+          "ShopID": "QiGemShop",
+          "Price": 400,
+          "IsRecipe": true
+        }
+      }
+    }
+  ] 
+}

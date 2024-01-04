@@ -1,0 +1,17 @@
+{
+	"Name": "Seasonal texture for Industrial Furnace",
+	"Author": "Traktori",
+	"Version": "1.0.1",
+	"Description": "An example on how to patch the texture for Industrial Furnace",
+	"UniqueID": "Traktori.SeasonalIndustrialFurnace",
+	"UpdateKeys": ["Nexus:5568@Seasonal"],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "Traktori.IndustrialFurnace",
+			"MinimumVersion": "1.8.0"
+		}
+	]
+}

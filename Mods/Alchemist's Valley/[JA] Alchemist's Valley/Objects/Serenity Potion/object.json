@@ -1,0 +1,38 @@
+{
+    "Name": "av serenity potion",
+    "Description": "?",
+    "TranslationKey":"serenity-potion",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": 40,
+    "EdibleIsDrink": true,
+    "ContextTags": ["potion_item"],
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": -4,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 70
+    },
+    "Price": 900,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Harvey",
+    "PurchasePrice": 1800,
+    "GiftTastes":
+    {
+        "Love": ["Harvey", "Shane", "Sebastian", "George", "Kent", "Penny", "Martin"],
+        "Like": [],
+        "Neutral": ["Gunther", "Victor", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliot", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Harvey", "Leah", "Lewis", "Olivia", "Shane", "Willy", "Gregory", "Joel", "Sheila", "Andy", "Claire", "MarlonFey", "MorrisTod", "Susan", "Jas", "Leo", "Penny", "Sebastian", "Vincent", "Morgan", "Sophia", "Apples", "Peaches", "Krobus", "Wizard", "Dwarf"],
+        "Dislike":[],
+        "Hate": []
+    }
+}

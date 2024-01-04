@@ -1,0 +1,42 @@
+{
+    "Name": "Auto Miner",
+    "Description": "Very powerful miner which can collect metals, takes a full day to complete.",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 3,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": "Brick",
+                "Count": 64
+            },
+            {
+                "Object": "Chromium Bar",
+                "Count": 20
+            },
+            {
+                "Object": 335, //Iron Bar
+                "Count": 24
+            },
+            {
+                "Object": 709, //Hardwood
+                "Count": 12
+            },
+            {
+                "Object": 787, //battery pack
+                "Count": 8
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+    "NameLocalization": {
+        "zh": "自动采矿机",
+        "de": "Elektro-Bohrer"
+    },
+    "DescriptionLocalization": {
+        "zh": "强大的采矿机，能收集材料，消耗一天时间运转。",
+        "de": "Eine sehr leistungsstarke Bohrmaschine, die wertvolle Bodenschätze sammelt. Benötigt zum Betrieb 1 Batterie."
+    }
+}

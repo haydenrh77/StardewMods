@@ -1,0 +1,19 @@
+{
+    "Name": "Jen's Cozy Cellar",
+    "Author": "jenf1",
+    "Version": "1.0.0",
+    "UniqueID": "jenf1.cozycellar",
+    "MinimumApiVersion": "2.5.2",
+    "Description": "A cellar that is both home-y and can store your casks.",
+	"UpdateKeys": [ "Nexus:5664" ],
+     "ContentPackFor": {
+         "UniqueID": "Pathoschild.ContentPatcher",
+         "MinimumVersion": "1.0.0"
+    },
+    "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.1"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+    "Name": "av fairy's gift",
+    "Description": "?",
+    "TranslationKey":"fairy-gift",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": 120,
+    "EdibleIsDrink": true,
+    "ContextTags": ["potion_item"],
+    "EdibleBuffs":
+    {
+        "Farming": 5,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 5,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 3,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 300,
+    },
+    "Price": 2000,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Sandy",
+    "PurchasePrice": 4000,
+    "GiftTastes":
+    {
+        "Love": ["Gunther", "Victor", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliot", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Harvey", "Leah", "Lewis", "Olivia", "Shane", "Willy", "Gregory", "Joel", "Sheila", "Andy", "Claire", "MarlonFey", "Martin", "MorrisTod", "Susan", "Jas", "Leo", "Penny", "Sebastian", "Vincent", "Morgan", "Sophia", "Apples", "Peaches", "Krobus", "Wizard", "Dwarf"],
+        "Like": [],
+        "Neutral": [],
+        "Dislike":[],
+        "Hate": []
+    }
+}

@@ -1,0 +1,22 @@
+{
+   "Name": "Industrialization for PPJA",
+   "Author": "Kazuakisama",
+   "Description": "Garden Cloche and Industrial Distillery support for PPJA",
+   "Version": "1.2.0",
+   "MinimumApiVersion": "3.0.1",
+   "UniqueID": "Kazuakisama.PFM.Industrialization.PPJA",
+   "ContentPackFor": {
+       "UniqueID": "DIGUS.ProducerFrameworkMod"
+    },
+   "Dependencies": [
+   {
+      "UniqueID": "Kazuakisama.JA.Industrialization",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "ppja.fruitsandveggies",
+      "IsRequired": true,
+   },
+],
+"UpdateKeys": [ "Nexus:5854" ],
+}

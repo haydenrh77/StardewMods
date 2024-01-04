@@ -1,0 +1,38 @@
+{
+    "Name": "av ravenous soul",
+    "Description": "?",
+    "TranslationKey":"ravenous-soul",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": 1,
+    "EdibleIsDrink": true,
+    "ContextTags": ["potion_item"],
+    "EdibleBuffs":
+    {
+        "Farming": -3,
+        "Fishing": -3,
+        "Mining": -3,
+        "Luck": -3,
+        "Foraging": -3,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 6,
+        "Defense": 16,
+        "Attack": 16,
+        "Duration": 666,
+    },
+    "Price": 4333,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 8666,
+    "GiftTastes":
+    {
+        "Love": [],
+        "Like": [],
+        "Neutral": [],
+        "Dislike":[],
+        "Hate": ["Gunther", "Victor", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliot", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Harvey", "Leah", "Lewis", "Olivia", "Shane", "Willy", "Gregory", "Joel", "Sheila", "Andy", "Claire", "MarlonFey", "Martin", "MorrisTod", "Susan", "Jas", "Leo", "Penny", "Sebastian", "Vincent", "Morgan", "Sophia", "Apples", "Peaches", "Krobus", "Wizard", "Dwarf"]
+    }
+}

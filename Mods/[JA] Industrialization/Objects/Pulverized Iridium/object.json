@@ -1,0 +1,17 @@
+{
+    "Name": "Pulverized Iridium",
+    "Description": "Large pile of pure iridium, must be smelted in an Electric Furnace, can be fused with a Prismatic Shard.",
+    "Category": "Metal",
+    "Edibility": -300,
+    "Price": 450,
+    "IsColored": false,
+    "Recipe": null,
+    "NameLocalization": {
+        "zh": "铱粉",
+        "de": "Iridiumpulver"
+    },
+    "DescriptionLocalization": {
+        "zh": "一大堆纯净的铱粉，必须在电炉里冶炼。",
+        "de": "In Pulver zermahlenes reines Iridium. Muss in einem Elektro-Ofen geschmolzen werden."
+    }
+}

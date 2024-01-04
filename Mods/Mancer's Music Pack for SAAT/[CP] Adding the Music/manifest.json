@@ -1,0 +1,24 @@
+{
+
+  "Name": "Adding Mancer's Music Pack",
+   "Author": "Mancer",
+   "Description": "Adds the music to the custom locations for Mermaid Island and the Lost Valley (Boarding House)",
+   "Version": "1.0.0",
+   "UniqueID": "Mancer.SAAT.K",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "Dependencies": [
+    {
+      "UniqueID": "Mancer.SAAT.Pack",
+    },
+    {
+      "UniqueID": "FishingIslandNPC",
+      "IsRequired": false,
+    },
+    {
+      "UniqueID": "CPBoardingHouse",
+      "IsRequired": false,
+    },
+  ],
+}

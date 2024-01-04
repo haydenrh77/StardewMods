@@ -1,0 +1,11 @@
+{
+  "Name": "Mancer's Music Pack for SAAT",
+  "Author": "Mancer",
+  "Version": "1.0.0",
+  "Description": "Mancer's music pack for Mermaid Island and other Hisame and Trent's map mods.",
+  "UniqueID": "Mancer.SAAT.Pack",
+  "ContentPackFor": {
+    "UniqueID": "ZeroMeters.SAAT.Mod",
+    "MinimumVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Tree Cloche",
+    "Description": "Tree nursery which grows trees faster and produces wood.",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 2,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": 310,
+                "Count": 3
+            },
+            {
+                "Object": 309,
+                "Count": 3
+            },
+            {
+                "Object": 311,
+                "Count": 3
+            },
+            {
+                "Object": "Brick",
+                "Count": 10
+            },
+            {
+                "Object": 335,
+                "Count": 8
+            },
+            {
+                "Object": 787,
+                "Count": 3
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+    "NameLocalization": {
+        "zh": "树苗玻璃罩",
+        "de": "Baum-Glocke"
+    },
+    "DescriptionLocalization": {
+        "zh": "能让树长得更快并获得木头的苗圃。",
+        "de": "Eine große für Bäume erdachte Glocke. Erzeugt aus 1x Baum-Samen eine ordentliche Menge Holz (jedoch kein Harz oder weitere Samen)."
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "Name": "av elven potion",
+    "Description": "?",
+    "TranslationKey":"elven-potion",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": 60,
+    "EdibleIsDrink": true,
+    "ContextTags": ["potion_item"],
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 6,
+        "Defense": 7,
+        "Attack": 7,
+        "Duration": 300,
+    },
+    "Price": 2500,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Dwarf",
+    "PurchasePrice": 5000,
+    "GiftTastes":
+    {
+        "Love": ["Dwarf", "MarlonFey", "Abigail"],
+        "Like": [],
+        "Neutral": ["Gunther", "Victor", "Alex", "Caroline", "Clint", "Demetrius", "Elliot", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Harvey", "Leah", "Lewis", "Olivia", "Shane", "Willy", "Gregory", "Joel", "Sheila", "Andy", "Claire", "Martin", "MorrisTod", "Susan", "Jas", "Leo", "Penny", "Sebastian", "Vincent", "Morgan", "Sophia", "Apples", "Peaches", "Krobus", "Wizard"],
+        "Dislike":[],
+        "Hate": []
+    }
+}

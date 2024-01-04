@@ -1,0 +1,42 @@
+{
+    "Name": "Garden Cloche",
+    "Description": "An extremely powerful cloche, supply it with 24 of the same seed, and in return, get iridium quality crops (Time varies).",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 2,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": "Chromium Bar",
+                "Count": 15
+            },
+            {
+                "Object": "Brick",
+                "Count": 50
+            },
+            {
+                "Object": 369,
+                "Count": 150
+            },
+            {
+                "Object": 336,
+                "Count": 15
+            },
+            {
+                "Object": 787,
+                "Count": 10
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+    "NameLocalization": {
+        "zh": "园艺玻璃罩",
+        "de": "Nutzpflanzen-Glocke"
+    },
+    "DescriptionLocalization": {
+        "zh": "极其强大的玻璃罩，提供24个相同种子，获得铱星作物（时间不定）。",
+        "de": "Eine extrem starke Glocke: versorge sie mit 25 Samen und bekomme dafür die Ernte in Iridiumqualität (Zeit und Samen können variieren)."
+    }
+}

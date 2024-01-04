@@ -1,0 +1,23 @@
+{
+
+// Buffs & Debuffs  
+ 
+"cruel.joke.buff":"\nPoção do Riso \nPiada Cruel",
+"cruel.joke.description":"Você está rindo tanto que acha que seus pulmões vão estourar. \nVelocidade -2",
+
+"night.fall.buff":"\nRaio Lunar \nAnoitecer",
+"night.fall.description":"Você sente todos os pensamentos e preocupações desaparecendo. \nRegeneração de Energia +1 \nRegeneração de Vida +1",
+
+"fountain.youth.buff":"\nElixir Rejuvenescedor \nFonte da Juventude",
+"fountain.youth.description":"Você se sente rejuvenescido e cheio de vida. \nEnergia Máxima +75 \nRegeneração de Vida +1 \nRegeneração de Energia +2",
+
+"positivity.buff":"\nBeijo da Fada \nPositividade",
+"positivity.description":"Você sente que pode fazer qualquer coisa! \nSorte 2 \nVelocidade 2",
+
+"sanctuary.buff":"\nBrisa do Mar \nSantuário",
+"sanctuary.description":"Uma brisa suave lhe envolve. Você sente que nada pode quebrar seu foco. \nSorte +1 \nPesca +3",
+
+"captivating.voice.buff":"\nCanção da Sereia \nVoz Cativante",
+"captivating.voice.description":"O mar inspira você a cantar."
+
+}

@@ -1,0 +1,17 @@
+{
+    "Name": "Pulverized Copper",
+    "Description": "Large pile of pure copper, must be smelted in an Electric Furnace.",
+    "Category": "Metal",
+    "Edibility": -300,
+    "Price": 20,
+    "IsColored": false,
+    "Recipe": null,
+    "NameLocalization": {
+        "zh": "铜粉",
+        "de": "Kupferpulver"
+    },
+    "DescriptionLocalization": {
+        "zh": "一大堆纯净的铜粉，必须在电炉里冶炼。",
+        "de": "In Pulver zermahlenes reines Kupfer. Muss in einem Elektro-Ofen geschmolzen werden."
+    }
+}

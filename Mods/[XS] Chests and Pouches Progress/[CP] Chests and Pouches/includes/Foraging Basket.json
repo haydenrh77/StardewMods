@@ -1,0 +1,47 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "Jrn.CaPCP/Foraging Basket",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "Foraging Basket": {
+          "DisplayName": "{{i18n: Foraging Basket.name}}",
+          "Description": "{{i18n: Foraging Basket.description}}",
+          "Image": "Jrn.CaPCP/Foraging Basket",
+          "PlayerColor": false,
+          "OpenSound": "grassyStep",
+          "IsPlaceable": false,
+          "BetterChestsData": {
+            "CollectItems": "Enabled",
+            "CustomColorPicker": "Disabled",
+            "FilterItems": "Enabled",
+            "FilterItemsList": [
+              "category_greens",
+              "category_building_resources"
+            ],
+            "OpenHeldChest": "Enabled",
+            "ResizeChest": "Enabled",
+            "ResizeChestCapacity": 12
+          }
+        }
+      }
+    },
+
+    // Add Crafting Recipe
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Foraging Basket": "388 15 771 35 92 10/Home/232/true/null/{{i18n: Foraging Basket.name}}"
+      }
+    }
+  ] 
+}

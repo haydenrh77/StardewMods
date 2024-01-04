@@ -1,0 +1,159 @@
+{
+
+// Cauldrons  
+ 
+"rusty-cauldron.name":"Caldeirão Mágico",
+"rusty-cauldron.description":"Um caldeirão enferrujado que pode ser usado para preparar poções de todos os tipos.",
+
+// Flasks  
+
+"small-flask.name":"Frasco Pequeno",
+"small-flask.description":"Um recipiente para poções.",
+
+"flask.name":"Frasco",
+"flask.description":"Um recipiente para poções.",
+
+"medium-flask.name":"Frasco Médio",
+"medium-flask.description":"Um recipiente para poções.",
+
+"big-flask.name":"Frasco Grande",
+"big-flask.description":"Um recipiente para poções.",
+
+// Potions  
+
+"emergency-pack.name":"Pacote de Emergência",
+"emergency-pack.description":"Dois frascos que o manterão preparado para qualquer coisa.",
+
+"healing-potion.name":"Poção de Cura",
+"healing-potion.description":"Um clássico. E sempre e bom ter mais.",
+
+"medium-potion.name":"Poção de Cura Média",
+"medium-potion.description":"A escolha ideal para aqueles que não conseguem se decidir.",
+
+"greater-potion.name":"Poção de Cura Maior",
+"greater-potion.description":"É tão vibrante e cheio de vida que faz você se sentir saudável só de olhar.",
+
+"energizing-elixir.name":"Elixir Energizante",
+"energizing-elixir.description":"Uma versão aprimorada do tônico de energia.",
+
+"rejuvenating-elixir.name":"Elixir Rejuvenescedor",
+"rejuvenating-elixir.description":"Atemporal. Restaura a juventude e a vitalidade revertendo os efeitos do envelhecimento.",
+
+"warrior-might.name":"Força do Guerreiro",
+"warrior-might.description":"Concede força aprimorada a quem bebe.",
+
+"golem-skin.name":"Pele de Golem",
+"golem-skin.description":"Endurece a pele de quem bebe, proporcionando maior defesa e resistência.",
+
+"assassin-elixir.name":"Elixir do Assassino",
+"assassin-elixir.description":"Concede velocidade e letalidade aprimoradas a quem bebe.",
+
+"adventurer-potion.name":"Poção do Aventureiro",
+"adventurer-potion.description":"É muito procurada por aventureiros e viajantes. Ajuda quem bebe a superar quaisquer obstáculos em sua jornada.",
+
+"berserker-wrath.name":"Ira do Berserker",
+"berserker-wrath.description":"Quando consumida, induz um estado de fúria. Concede força aprimorada, porém diminui a resistência de quem bebe.",
+
+"savagery-serum.name":"Soro da Selvageria",
+"savagery-serum.description":"Libera a fera interior dentro de você.",
+
+"farmer-tonic.name":"Tônico do Fazendeiro",
+"farmer-tonic.description":"Aprimora a capacidade de quem bebe de cultivar plantas.",
+
+"sea-breeze.name":"Brisa do Mar",
+"sea-breeze.description":"Aprimora a habilidade de pesca de quem bebe, criando uma atmosfera tranquila e livre de perturbações.",
+
+"mermaid-song.name":"Canção da Sereia",
+"mermaid-song.description":"Os peixes serão atraídos para você. Concede uma voz cativante a quem bebe.",
+
+"cthulhu-call.name":"Chamado de Cthulhu",
+"cthulhu-call.description":"Você pode ouvir sussurros vindos das profundezas. Aprofunda a conexão e sincronia de quem bebe com o mar.",
+
+"elven-potion.name":"Poção Élfica",
+"elven-potion.description":"Feita pelos elfos antigos. Concede sentidos aprimorados a quem bebe.",
+
+"gravity-pull.name":"Atração da Gravidade",
+"gravity-pull.description":"Você se sente o centro do universo. Gera um campo magnético que puxa tudo em direção de quem bebe.",
+
+"light-flow.name":"Fluxo de Luz",
+"light-flow.description":"Envolve quem bebe em uma aura de luz, permitindo que se mova numa velocidade incrível.",
+
+"void-juice.name":"Suco Nulo",
+"void-juice.description":"Esse suco e a alegria dos monstros!",
+
+"shadow-embrace.name":"Abraço das Sombras",
+"shadow-embrace.description":"Envolve quem bebe em um manto de escuridão, permitindo que se mova com a velocidade e a furtividade de uma sombra.",
+
+"junimo-wish.name":"Desejo do Junimo",
+"junimo-wish.description":"Mil desejos de Junimos. Concede sorte imensa a quem bebe",
+
+"yoba-blessing.name":"Bênção de Yoba",
+"yoba-blessing.description":"Irradia uma luz divina. Concede um vasto conhecimento a quem bebe.",
+
+"smoluanu-ale.name":"Cerveja de Smoluanu",
+"smoluanu-ale.description":"Os Smoluanu adoravam essa bebida.",
+
+"smoluanu-mead.name":"Hidromel de Smoluanu",
+"smoluanu-mead.description":"Há mais nesta bebida do que aparenta. Talvez um dia você descubra o segredo.",
+
+"woodland-brew.name":"Bebida da Floresta",
+"woodland-brew.description":"Que você floresça e cresça. Intensifica a conexão e harmonia de quem bebe com a natureza.",
+
+"witch-brew.name":"Bebida da Bruxa",
+"witch-brew.description":"Uma versão mais fraca da Maldição da Bruxa que é igualmente maligna. Beba por sua própria conta e risco.",
+
+"snake-potion.name":"Poção de Cobra",
+"snake-potion.description":"Um veneno forte. Pode ser usado em receitas.",
+
+"antidote.name":"Antídoto",
+"antidote.description":"Um remédio para veneno.",
+
+"nectar.name":"Néctar",
+"nectar.description":"O néctar dos deuses. Tem um gosto celestial.",
+
+"ambrosia.name":"Ambrósia",
+"ambrosia.description":"Alguns dizem que concede a imortalidade, talvez se você beber o suficiente?",
+
+"charm-potion.name":"Poção do Charme",
+"charm-potion.description":"Cria uma aura mágica ao redor de quem bebe, tornando-o mais encantador e confiante.",
+
+"love-potion.name":"Poção do Amor",
+"love-potion.description":"Amor ao primeiro gole. Faz com quem bebe se apaixone pela pessoa que deu a poção.",
+
+"serenity-potion.name":"Poção da Serenidade",
+"serenity-potion.description":"Acalma a mente e o corpo de quem bebe, proporcionando-lhe um estado de paz e tranquilidade.",
+
+"lullaby-dreams.name":"Cantiga de Sonhos",
+"lullaby-dreams.description":"Pode influenciar os sonhos de quem bebe causando sonhos lindos e tranquilos.",
+
+"nostalgia.name":"Nostalgia",
+"nostalgia.description":"Permite que você revisite os bons e velhos tempos. Beba com moderação!",
+
+"laughing-potion.name":"Poção do Riso",
+"laughing-potion.description":"Esta poção tem um estranho senso de humor. Induz riso incontrolável.",
+
+"liquid-ghost.name":"Fantasma Líquido",
+"liquid-ghost.description":"Emite uma luz misteriosa e um odor estranho.",
+
+"fairy-kiss.name":"Beijo da Fada",
+"fairy-kiss.description":"Alegria radiante. Induz um estado de otimismo e felicidade em quem bebe.",
+
+"fairy-gift.name":"Presente da Fada",
+"fairy-gift.description":"Um presente de prosperidade. Quem bebe é abençoado com um futuro brilhante.",
+
+"dragon-wine.name":"Vinho de Sangue de Dragão",
+"dragon-wine.description":"Sangue lendário flui em suas veias, acendendo um poder ígneo. Use com extremo cuidado.",
+
+"moon-beam.name":"Raio Lunar",
+"moon-beam.description":"Limpa a mente de quem bebe e garante um sono repousante.",
+
+"ravenous-soul.name":"Alma Voraz",
+"ravenous-soul.description":"E o que lhe custou? Tudo que eu tinha. \nAlcance um enorme poder, porém a um custo terrível.",
+
+"witch-curse.name":"Maldição da Bruxa",
+"witch-curse.description":"Uma bênção ou uma maldição? Tente a sorte com esta poção maligna. Os efeitos colaterais podem variar.",
+
+"slime-cocktail.name":"Coquetel de Gosma",
+"slime-cocktail.description":"O líquido ainda está se movendo..."
+
+}

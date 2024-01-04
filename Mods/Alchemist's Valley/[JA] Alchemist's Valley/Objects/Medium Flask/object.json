@@ -1,0 +1,24 @@
+{
+    "Name": "av medium flask",
+    "Description": "?",
+    "TranslationKey":"medium-flask",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": -200,
+    "EdibleIsDrink": false,
+    "ContextTags": ["potion_item"],
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Clint",
+    "PurchasePrice": 100,
+    "GiftTastes":
+    {
+        "Love": [],
+        "Like": [],
+        "Neutral": ["Gunther", "Victor", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliot", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Harvey", "Leah", "Lewis", "Olivia", "Shane", "Willy", "Gregory", "Joel", "Sheila", "Andy", "Claire", "MarlonFey", "Martin", "MorrisTod", "Susan", "Jas", "Leo", "Penny", "Sebastian", "Vincent", "Morgan", "Sophia", "Apples", "Peaches", "Krobus", "Wizard", "Dwarf"],
+        "Dislike":[],
+        "Hate": []
+    }
+}

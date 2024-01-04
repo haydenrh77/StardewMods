@@ -1,0 +1,51 @@
+{
+"Changes": [
+
+// **** UNIQUE DATE 1 ****
+
+{       //Date Initiation
+            "LogName": "Date Initiation",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "1117001": "",
+
+			"dateYes": "addMailReceived unique1Agree",
+
+            },
+            "When": {
+            "Spouse": "{{Spouse}}",
+		"Query: {{DateInterest}} <= {{DateAskPercentChance}}": true,
+		"Query: {{UniqueInterest}} <= {{UniqueDateChance}}": true,
+		"UniqueDateType": "unique1",
+            },
+         },
+
+{       //Date - Suggestive
+            "LogName": "Date",
+            "Action": "EditData",
+            "Target": "Data/Events/HaleyHouse", //***THE LOCATION CAN BE CHANGED
+            "Entries": {
+                "1117101/n unique1Agree": "",
+            },
+            "When": {
+            "Spouse": "{{Spouse}}",
+		"SuggestiveEndings": "true",
+            },
+         },
+
+{       //Date - Non Suggestive
+            "LogName": "Date",
+            "Action": "EditData",
+            "Target": "Data/Events/HaleyHouse", //***THE LOCATION CAN BE CHANGED
+            "Entries": {
+                 "1117101/n unique1Agree": "",
+            },
+            "When": {
+            "Spouse": "{{Spouse}}",
+		"SuggestiveEndings": "false",
+            },
+         },
+
+],
+}

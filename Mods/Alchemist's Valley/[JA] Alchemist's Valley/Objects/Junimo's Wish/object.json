@@ -1,0 +1,38 @@
+{
+    "Name": "av junimo's wish",
+    "Description": "?",
+    "TranslationKey":"junimo-wish",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": 120,
+    "EdibleIsDrink": true,
+    "ContextTags": ["potion_item"],
+    "EdibleBuffs":
+    {
+        "Farming": 2,
+        "Fishing": 2,
+        "Mining": 2,
+        "Luck": 10,
+        "Foraging": 2,
+        "MaxStamina": 25,
+        "MagnetRadius": 25,
+        "Speed": 1,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 300,
+    },
+    "Price": 5000,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 10000,
+    "GiftTastes":
+    {
+        "Love": ["Gunther", "Victor", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliot", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Harvey", "Leah", "Lewis", "Olivia", "Shane", "Willy", "Gregory", "Joel", "Sheila", "Andy", "Claire", "MarlonFey", "Martin", "MorrisTod", "Susan", "Jas", "Leo", "Penny", "Sebastian", "Vincent", "Morgan", "Sophia", "Apples", "Peaches", "Krobus", "Wizard", "Dwarf"],
+        "Like": [],
+        "Neutral": [],
+        "Dislike":[],
+        "Hate": []
+    }
+}

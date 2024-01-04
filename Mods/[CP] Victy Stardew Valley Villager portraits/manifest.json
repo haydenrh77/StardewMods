@@ -1,0 +1,12 @@
+﻿{
+    "Name": "[CP] Victy Villager portrait re-texture",
+    "Author": "Victy",
+    "Version": "1.0.1",
+    "Description": " Stardew Valley Villager retexture.",
+    "UniqueID": "Victy.VillagerRetexture",
+    "UpdateKeys": ["Nexus:16238"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+}
+
+}

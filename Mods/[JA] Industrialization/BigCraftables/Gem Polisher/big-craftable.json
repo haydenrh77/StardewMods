@@ -1,0 +1,38 @@
+{
+    "Name": "Gem Polisher",
+    "Description": "An exotic gem polisher, allows upgrading gems to iridium quality.",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 6,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": "Brick",
+                "Count": 24
+            },
+            {
+                "Object": 336,
+                "Count": 10
+            },
+            {
+                "Object": 338,
+                "Count": 15
+            },
+            {
+                "Object": 787,
+                "Count": 4
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+    "NameLocalization": {
+        "zh": "宝石抛光机",
+        "de": "Edelsteinpolierer"
+    },
+    "DescriptionLocalization": {
+        "zh": "奇异的宝石抛光机，能将宝石提升至铱星品质。",
+        "de": "Verbessert die Qualität von Edelsteinen bis hin zu Iridiumqualität."
+    }
+}

@@ -1,0 +1,12 @@
+{
+   "Name": "Aesthetic Matching Tools - Iridium Scythe",
+   "Author": "Wumbuzz",
+   "Version": "1.0",
+   "Description": "Replaces the Golden Scythe with an Iridium alternative to match the other Tools and Weapons.",
+   "UniqueID": "Wumbuzz.IridiumScythe",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:10560" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

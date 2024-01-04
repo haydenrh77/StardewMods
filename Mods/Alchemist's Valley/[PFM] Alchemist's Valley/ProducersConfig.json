@@ -1,0 +1,9 @@
+[
+  {
+    "ProducerName": "Magic Cauldron",
+    "AlternateFrameProducing": true,
+    "AlternateFrameWhenReady": false,
+	"DisableBouncingAnimationWhileWorking": true,
+	"ProducingAnimation": {"RelativeFrameIndex": [ 1, 2, 3, 4], "FrameInterval": 15},
+  }
+]

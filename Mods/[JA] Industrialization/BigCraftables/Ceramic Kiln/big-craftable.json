@@ -1,0 +1,34 @@
+{
+    "Name": "Ceramic Kiln",
+    "Description": "Cooks clay into Bricks, which is required by most machines.",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 5,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": 334, //copper bar
+                "Count": 2
+            },
+            {
+                "Object": 390, //stone
+                "Count": 50
+            },
+            {
+                "Object": 330, //clay
+                "Count": 10
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+    "NameLocalization": {
+        "zh": "陶瓷窑",
+        "de": "Keramik-Ofen"
+    },
+    "DescriptionLocalization": {
+        "zh": "把粘土烧成砖块，用于制作大多数机器。",
+        "de": "Brennt 5x Lehm in 20x Ziegel, die für viele Maschinen gebraucht werden. Braucht Kohle als Brennstoff."
+    }
+}

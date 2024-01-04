@@ -1,0 +1,38 @@
+{
+    "Name": "av witch's curse",
+    "Description": "?",
+    "TranslationKey":"witch-curse",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": 40,
+    "EdibleIsDrink": true,
+    "ContextTags": ["potion_item"],
+    "EdibleBuffs":
+    {
+        "Farming": 5,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": -10,
+        "Foraging": 5,
+        "MaxStamina": 0,
+        "MagnetRadius": 25,
+        "Speed": 2,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 300,
+    },
+    "Price": 1250,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 2500,
+    "GiftTastes":
+    {
+        "Love": ["Krobus", "Wizard"],
+        "Like": [],
+        "Neutral": [],
+        "Dislike":[],
+        "Hate": ["Gunther", "Victor", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliot", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Harvey", "Leah", "Lewis", "Olivia", "Shane", "Willy", "Gregory", "Joel", "Sheila", "Andy", "Claire", "MarlonFey", "Martin", "MorrisTod", "Susan", "Jas", "Leo", "Penny", "Sebastian", "Vincent", "Morgan", "Sophia", "Apples", "Peaches", "Krobus", "Wizard", "Dwarf"]
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "Name": "[SAAT] Alchemist's Valley",
+  "Author": "Dolly",
+  "Version": "1.2.0",
+  "Description": "Sounds for Alchemist's Valley.",
+  "UniqueID": "Dolly.SAATAlchemistValley",
+  "ContentPackFor": {
+    "UniqueID": "ZeroMeters.SAAT.Mod",
+    "MinimumVersion": "1.1.2"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "ZeroMeters.SAAT.Mod",
+      "IsRequired": "true"
+    },
+    {
+      "UniqueID": "Dolly.AlchemistValley",
+      "IsRequired": "true"
+    }
+  ]
+}

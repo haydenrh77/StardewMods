@@ -1,0 +1,48 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "Jrn.CaPCP/Farming Basket",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "Farming Basket": {
+          "DisplayName": "{{i18n: Farming Basket.name}}",
+          "Description": "{{i18n: Farming Basket.description}}",
+          "Image": "Jrn.CaPCP/Farming Basket",
+          "PlayerColor": false,
+          "OpenSound": "grassyStep",
+          "IsPlaceable": false,
+          "BetterChestsData": {
+            "CollectItems": "Enabled",
+            "CustomColorPicker": "Disabled",
+            "FilterItems": "Enabled",
+            "FilterItemsList": [
+              "category_flowers",
+              "category_fruits",
+              "category_vegetable"
+            ],
+            "OpenHeldChest": "Enabled",
+            "ResizeChest": "Enabled",
+            "ResizeChestCapacity": 12
+          }
+        }
+      }
+    },
+
+    // Add Crafting Recipe
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Farming Basket": "330 10 771 35 770 8/Home/232/true/null/{{i18n: Farming Basket.name}}"
+      }
+    }
+  ] 
+}

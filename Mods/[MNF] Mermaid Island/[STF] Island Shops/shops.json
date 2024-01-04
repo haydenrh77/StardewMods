@@ -1,0 +1,235 @@
+{
+  "Shops": [
+    {
+      "ShopName": "MadamShop",
+	  "PortraitPath": "assets/Madam_Icon.png",
+	  "When": ["NPCAt Madam 3 15"],
+	  "Quote": "Welcome, sweetie!",
+	  "CategoriesToSellHere": [-21, -22],
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+          "ItemIDs": [
+            686,
+			687,
+			691,
+			692,
+			693,
+			694,
+			695,
+			394,
+			393,
+			774
+          ],
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": 25,
+          "ItemNames": [
+            "Fish Food"
+          ],
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": 375,
+          "ItemIDs": [
+            690
+          ],
+        },
+      ],
+      "ClosedMessage": "The shop is closed."
+    },
+	{
+      "ShopName": "FoxStand",
+	  "PortraitPath": "assets/Fox.png",
+	  "When": ["w sunny/t 600 1900"],
+	  "Quote": "Me iz IceFox, me haz Refreshing Yummies!",
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+		  "StockPrice": 200,
+		  "ItemIDs": [
+            233
+          ],
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": 200,
+		  "ItemIDs": [
+            350
+          ],
+        },
+		{
+          "ItemType": "Object",
+          "ItemIDs": [
+            346,
+			88,
+          ],	  
+		  "ItemNames": [
+		  "Green Coconut"],
+        },
+      ],
+      "ClosedMessage": "Come when IceFox iz back for more Yummies!."
+    },
+	{
+      "ShopName": "HisameShop",
+	  "PortraitPath": "assets/Hisame_Icon.png",
+	  "When": ["t 600 2000"],
+	  "Quote": "Hi and welcome to my gardening shop! 10% of the profits go to nature reserves.",
+      "ClosedMessage": "Summer Market shops are closed.",
+	  "ItemStocks": [
+        {
+          "ItemType": "BigCraftable",
+          "ItemNames": [
+		  "Ceramic Flower Pot",
+		  "Decorated Flower Pot",
+		  "Flower Bear Pot",
+		  "Flower Can",
+		  "Freestanding Reeds",
+		  "Metal Flower Pot",
+		  "Porcelain Flower Pot",
+		  "Wooden Flower Pot",
+		  ],
+		  },
+{
+          "ItemType": "Object",
+         "ItemNames": [
+                "Green Coconut Palm Sapling",
+				"Red Dragon Fruit Sapling",
+				"Tangerine Sapling"
+		  ],
+		  },		  
+          ],
+    },
+    {
+      "ShopName": "TanukiShop",
+	  "PortraitPath": "assets/tanuki.png",
+	  "When": ["t 600 2000"],
+	  "Quote": "We have beautiful artworks from indie artists! We print on demand, but restock each day.",
+      "ItemStocks": [
+        {
+          "ItemType": "BigCraftable",
+		  "StockPrice": 11000,
+          "ItemNames": [
+		  "Chicken Statue",
+		  "Duck Statue",
+		  "Goat Statue",
+		  "Cow Statue",
+		  "Pig Statue",
+		  "Sheep Statue",
+		  "Rabbit Statue",
+		  "Turkey Statue",
+		  ],
+		  },		  
+          ],
+        },
+		{
+      "ShopName": "TrentShop",
+	  "PortraitPath": "assets/Trent_Icon.png",
+	  "When": ["t 600 2000"],
+	  "Quote": "Hey! I've got a sellection of items for fishermen and aquarists!",
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+          "JAPacks": [
+                "JA.Fishbreeding",
+              ],
+		  },
+		  {
+          "ItemType": "Object",
+          "ItemIDs": [
+		  219,
+		  856,
+		  877
+		  ],
+		  },
+		  {
+          "ItemType": "Object",
+		  "StockPrice": 250,
+          "ItemIDs": [
+		  727,
+		  ],
+		  },
+		  {
+          "ItemType": "Object",
+		  "StockPrice": 10000,
+          "ItemIDs": [
+		  1116,
+		  ],
+		  },
+		  {
+          "ItemType": "Object",
+		  "StockPrice": 750,
+          "ItemIDs": [
+		  242,
+		  ],
+		  },
+		  {
+          "ItemType": "Object",
+		  "StockPrice": 500,
+          "ItemIDs": [
+		  733,
+		  ],
+		  },
+		  {
+          "ItemType": "Object",
+		  "StockPrice": 2000,
+          "ItemIDs": [
+		  265,
+		  730,
+		  908
+		  ],
+		  },
+          ],
+        },
+		
+		{
+      "ShopName": "MarieShop",
+	  "PortraitPath": "assets/Marie_Icon.png",
+	  "When": ["t 600 2000"],
+	  "Quote": "I am Marie the cyborg corgi, a cyborgi! Have a salad! Live long and prosper.",
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+          "ItemNames": [
+		  "Takoyaki",
+		  "Fried Seafood Platter",
+		  "Fried Anchoviella",
+		  "Crab and Chips",
+		  "Shrimp and Chips",
+		  "Chips",
+		  "Seaside Herb Mix",
+		  "Countryside Herb Mix",
+		  "Desert Herb Mix",
+		  "Mountain Herb Mix",
+		  "Salad Sauce",
+		  "Grilled Conger",
+		  "Grilled Haddock",
+		  "Grilled Sauger",
+		  "Grilled Ide",
+		  "Grilled Calamari",
+		  ],
+		  },
+		  {
+          	"ItemType": "Object",
+          	"IsRecipe": true,
+            "JAPacks": [
+                "HisameNewRecipes",
+
+              ],
+            },
+		  {
+          "ItemType": "Object",
+		  "StockPrice": 0,
+		  "Stock": 1,
+          "ItemNames":  [
+		  "Mountain Salad",
+		  "Seaside Salad",
+		  "Desert Salad",
+		  "Seaside Salad"
+		  ],
+		  },
+          ],
+        },
+  ]
+}

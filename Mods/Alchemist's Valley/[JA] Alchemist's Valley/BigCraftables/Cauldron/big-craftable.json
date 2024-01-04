@@ -1,0 +1,36 @@
+{
+  "Name": "av magic cauldron",
+  "Description": "?",
+  "TranslationKey":"rusty-cauldron",
+  "isLamp": false,
+  "ProvidesLight": true,
+  "ReserveExtraIndexCount": 4,
+  "Price": 777,
+  "Recipe":
+  {
+  "ResultCount": 1,
+  "Ingredients": [
+    {
+      "Object": 388,
+      "Count": 50
+    },
+    {
+      "Object": 766,
+      "Count": 25
+    },
+    {
+      "Object": 684,
+      "Count": 25
+    },
+    {
+      "Object": 335,
+      "Count": 3
+    }
+   ],
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Clint",
+  "PurchasePrice": 4500,
+  "PurchaseRequirements": [null]
+  }
+}

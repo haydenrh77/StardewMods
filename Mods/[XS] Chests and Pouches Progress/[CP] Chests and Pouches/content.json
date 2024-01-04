@@ -1,0 +1,58 @@
+{
+  "Format": "1.28.0",
+  "Changes": [
+    // Collecting Pouch
+    {
+      "Action": "Include",
+      "FromFile": "includes/Collecting Pouch.json"
+    },
+
+    // Farming Basket
+    {
+      "Action": "Include",
+      "FromFile": "includes/Farming Basket.json"
+    },
+
+    // Fishing Pouch
+    {
+      "Action": "Include",
+      "FromFile": "includes/Fishing Pouch.json"
+    },
+
+    // Foraging Basket
+    {
+      "Action": "Include",
+      "FromFile": "includes/Foraging Basket.json"
+    },
+
+    // Galaxy Chest
+    {
+      "Action": "Include",
+      "FromFile": "includes/Galaxy Chest.json"
+    },
+
+    // Galaxy Link
+    {
+      "Action": "Include",
+      "FromFile": "includes/Galaxy Link.json"
+    },
+
+    // Golden Dwarf Chest
+    {
+      "Action": "Include",
+      "FromFile": "includes/Golden Dwarf Chest.json"
+    },
+
+    // Mining Pouch
+    {
+      "Action": "Include",
+      "FromFile": "includes/Mining Pouch.json"
+    },
+
+    // Oasis Chest
+    {
+      "Action": "Include",
+      "FromFile": "includes/Oasis Chest.json"
+    }
+  ]
+}

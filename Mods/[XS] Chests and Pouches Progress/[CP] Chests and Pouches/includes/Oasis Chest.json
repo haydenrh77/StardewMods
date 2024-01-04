@@ -1,0 +1,50 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "Jrn.CaPCP/Oasis Chest",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "Oasis Chest": {
+          "DisplayName": "{{i18n: Oasis Chest.name}}",
+          "Description": "{{i18n: Oasis Chest.description}}",
+          "Image": "Jrn.CaPCP/Oasis Chest",
+          "PlayerColor": true,
+          "BetterChestsData": {
+            "ResizeChest": "Enabled",
+            "ResizeChestCapacity": 48
+          }
+        }
+      }
+    },
+
+    // Add Crafting Recipe
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Oasis Chest": "709 10 275 1 84 1 336 2 334 4/Home/232/true/null/{{i18n: Oasis Chest.name}}"
+      }
+    },
+
+    // Add Buyable
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Buy",
+      "Entries": {
+        "Oasis Chest": {
+          "ShopID": "Sandy",
+          "Price": 8000,
+          "IsRecipe": true
+        }
+      }
+    }
+  ] 
+}

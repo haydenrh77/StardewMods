@@ -1,0 +1,17 @@
+{
+    "Name": "Pulverized Iron",
+    "Description": "Large pile of pure iron, must be smelted in an Electric Furnace.",
+    "Category": "Metal",
+    "Edibility": -300,
+    "Price": 45,
+    "IsColored": false,
+    "Recipe": null,
+    "NameLocalization": {
+        "zh": "铁粉",
+        "de": "Eisenpulver"
+    },
+    "DescriptionLocalization": {
+        "zh": "一大堆纯净的铁粉，必须在电炉里冶炼。",
+        "de": "In Pulver zermahlenes reines Eisen. Muss in einem Elektro-Ofen geschmolzen werden."
+    }
+}

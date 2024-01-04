@@ -1,0 +1,35 @@
+{
+    "Name": "Chromium Compound",
+    "Description": "Mixture of Iridium, Quartz and Prismatic powders, ready to be smelted.",
+    "Category": "Metal",
+    "Edibility": -300,
+    "Price": 750,
+    "IsColored": false,
+    "Recipe": {
+        "ResultCount": 30,
+        "Ingredients": [
+            {
+                "Object": "Pulverized Prismatic Shard",
+                "Count": 10
+            },
+            {
+                "Object": "Pulverized Iridium",
+                "Count": 10
+            },
+            {
+                "Object": "Pulverized Quartz",
+                "Count": 10
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+    "NameLocalization": {
+        "zh": "铬粉",
+        "de": "Chrom-Mix"
+    },
+    "DescriptionLocalization": {
+        "zh": "铱粉、石英粉和五彩粉的混合物，可以烧制。",
+        "de": "Eine Zusammensetzung aus Iridium-, Quarz- und Prismatischem Pulver. Schmelzfertig."
+    }
+}

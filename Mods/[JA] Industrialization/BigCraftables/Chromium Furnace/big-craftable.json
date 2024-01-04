@@ -1,0 +1,46 @@
+{
+    "Name": "Chromium Furnace",
+    "Description": "State of the art industrial grade furnace, smelts at 4x speed AND 2x output.",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 6,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": "Brick",
+                "Count": 50
+            },
+            {
+                "Object": "Chromium Bar",
+                "Count": 18
+            },
+            {
+                "Object": 336,
+                "Count": 12
+            },
+            {
+                "Object": 335,
+                "Count": 15
+            },
+            {
+                "Object": 338,
+                "Count": 24
+            },
+            {
+                "Object": 787,
+                "Count": 5
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+    "NameLocalization": {
+        "zh": "铬炉",
+        "de": "Chrom-Ofen"
+    },
+    "DescriptionLocalization": {
+        "zh": "最先进的工业熔炉，有4倍的速度和2倍的输出。",
+        "de": "DER Hightech-Ofen. Schmilzt erz- und pulverförmiges Metall mit 4-facher Geschwindigkeit und 2-facher Ausbeute. Benötigt KEINE Kohle zum Betrieb."
+    }
+}

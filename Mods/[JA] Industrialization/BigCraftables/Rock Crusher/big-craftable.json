@@ -1,0 +1,42 @@
+{
+    "Name": "Rock Crusher",
+    "Description": "Can break down 5 stone for a chance of ore, break down metal bars into pulverized metal, or break higher quality ore into multiple lower quality ores.",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 5,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": 338,
+                "Count": 12
+            },
+            {
+                "Object": 336,
+                "Count": 8
+            },
+            {
+                "Object": "Brick",
+                "Count": 15
+            },
+            {
+                "Object": 787,
+                "Count": 2
+            },
+            {
+                "Object": 386,
+                "Count": 5
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+    "NameLocalization": {
+        "zh": "碎石机",
+        "de": "Steinbrecher"
+    },
+    "DescriptionLocalization": {
+        "zh": "一次粉碎5个石头，有机率获得矿石，也可能变成沙砾。也可以破开晶球获得矿物和宝藏。",
+        "de": "Kann 5x Stein ​​für eine Chance auf Erz zerbrechen. Kann jedoch scheitern und stattdessen Kies geben. Es besteht die Möglichkeit beliebige Geoden für Minerale oder Artefakte zu öffnen."
+    }
+}

@@ -1,0 +1,159 @@
+{
+
+// Cauldrons  
+ 
+"rusty-cauldron.name":"Magic Cauldron",
+"rusty-cauldron.description":"A rusty cauldron that can be used for brewing potions of all kinds.",
+
+// Flasks  
+
+"small-flask.name":"Small Flask",
+"small-flask.description":"A container for potions.",
+
+"flask.name":"Flask",
+"flask.description":"A container for potions.",
+
+"medium-flask.name":"Medium Flask",
+"medium-flask.description":"A container for potions.",
+
+"big-flask.name":"Big Flask",
+"big-flask.description":"A container for potions.",
+
+// Potions  
+
+"emergency-pack.name":"Emergency Pack",
+"emergency-pack.description":"Two flasks that will keep you ready for anything.",
+
+"healing-potion.name":"Healing Potion",
+"healing-potion.description":"A classic. There's no such thing as too many.",
+
+"medium-potion.name":"Medium Healing Potion",
+"medium-potion.description":"The ideal choice for those who can't decide.",
+
+"greater-potion.name":"Greater Healing Potion",
+"greater-potion.description":"It's so vibrant and full of life that it makes you feel healthy just by looking at it.",
+
+"energizing-elixir.name":"Energizing Elixir",
+"energizing-elixir.description":"A enhanced version of the energy tonic.",
+
+"rejuvenating-elixir.name":"Rejuvenating Elixir",
+"rejuvenating-elixir.description":"Timeless. Restores youth and vitality by reversing the effects of aging.",
+
+"warrior-might.name":"Warrior's Might",
+"warrior-might.description":"Grants the drinker enhanced strength.",
+
+"golem-skin.name":"Golem Skin",
+"golem-skin.description":"Hardens the drinker's skin granting enhanced defense and endurance.",
+
+"assassin-elixir.name":"Assassin's Elixir",
+"assassin-elixir.description":"Grants the drinker enhanced speed and lethality.",
+
+"adventurer-potion.name":"Adventurer's Potion",
+"adventurer-potion.description":"It is highly sought by adventurers and travelers. Helps the drinker overcome any obstacles in their journey.",
+
+"berserker-wrath.name":"Berserker's Wrath",
+"berserker-wrath.description":"When consumed induces a state of rage. Grants the drinker enhanced strength but lowers resistance.",
+
+"savagery-serum.name":"Savagery Serum",
+"savagery-serum.description":"Releases the inner beast inside you.",
+
+"farmer-tonic.name":"Farmer's Tonic",
+"farmer-tonic.description":"Enhances the drinker's ability to cultivate crops.",
+
+"sea-breeze.name":"Sea Breeze",
+"sea-breeze.description":"Enhances the drinker's fishing skills by creating a quiet and undisturbed atmosphere.",
+
+"mermaid-song.name":"Mermaid's Song",
+"mermaid-song.description":"Fish will be drawn to you. Grants the drinker a captivating voice.",
+
+"cthulhu-call.name":"Call of Cthulhu",
+"cthulhu-call.description":"You can hear whispers from the depths. Deepens the drinker's connection and synchrony with the sea.",
+
+"elven-potion.name":"Elven Potion",
+"elven-potion.description":"Made by the ancient elves. Grants the drinker enhanced senses.",
+
+"gravity-pull.name":"Gravity's Pull",
+"gravity-pull.description":"It feels like you are the center of the universe. Generates a magnectic field that pulls everything towards the drinker.",
+
+"light-flow.name":"Flow of Light",
+"light-flow.description":"Envelops the drinker in an aura of light that allowing them to move at incredible speed.",
+
+"void-juice.name":"Void Juice",
+"void-juice.description":"This juice is a monster's delight!",
+
+"shadow-embrace.name":"Shadow's Embrace",
+"shadow-embrace.description":"Shrouds the drinker in a cloak of darkness that lets them move with the speed and stealth of a shadow.",
+
+"junimo-wish.name":"Junimo's Wish",
+"junimo-wish.description":"A thousand Junimo wishes. Grants the drinker immense luck!",
+
+"yoba-blessing.name":"Yoba's Blessing",
+"yoba-blessing.description":"It shimmers with divine light. Grants the drinker a vast knowledge.",
+
+"smoluanu-ale.name":"Smoluanu's Ale",
+"smoluanu-ale.description":"The Smoluanu used to love this drink.",
+
+"smoluanu-mead.name":"Smoluanu's Mead",
+"smoluanu-mead.description":"There is more to this drink than meets the eye. Maybe someday the Dwarf will tell his secret.",
+
+"woodland-brew.name":"Woodland Brew",
+"woodland-brew.description":"May you bloom and grow. Intensifies the drinker's connection and harmony with nature.",
+
+"witch-brew.name":"Witch's Brew",
+"witch-brew.description":"A fainter version of the Witch's Curse that is equally wicked. Drink at your own risk.",
+
+"snake-potion.name":"Snake Potion",
+"snake-potion.description":"A strong venom. Can be used in recipes.",
+
+"antidote.name":"Antidote",
+"antidote.description":"A remedy for poison.",
+
+"nectar.name":"Nectar",
+"nectar.description":"The nectar of the gods. It has a heavenly taste.",
+
+"ambrosia.name":"Ambrosia",
+"ambrosia.description":"Some say it grants immortality, maybe if you drink enough?",
+
+"charm-potion.name":"Charm Potion",
+"charm-potion.description":"Creates a magical aura around the drinker, making them more charming and confident.",
+
+"love-potion.name":"Love Potion",
+"love-potion.description":"Love at first sip. Causes the drinker to become infatuated with the person who gave it to them.",
+
+"serenity-potion.name":"Serenity Potion",
+"serenity-potion.description":"Calms the mind and body of the drinker, granting them a state of peace and tranquility.",
+
+"lullaby-dreams.name":"Lullaby of Dreams",
+"lullaby-dreams.description":"It can influence the dreams of the drinker causing beautiful and peaceful dreams.",
+
+"nostalgia.name":"Nostalgia",
+"nostalgia.description":"It lets you revisit the good ol' days. Drink with moderation!",
+
+"laughing-potion.name":"Laughing Potion",
+"laughing-potion.description":"This potion has a weird sense of humor. Induces uncontrollable laughter",
+
+"liquid-ghost.name":"Liquid Ghost",
+"liquid-ghost.description":"It emits an eerie light and an odd odor.",
+
+"fairy-kiss.name":"Fairy's Kiss",
+"fairy-kiss.description":"This one sparks joy. Induces a state of optimism and happiness in the drinker.",
+
+"fairy-gift.name":"Fairy's Gift",
+"fairy-gift.description":"A gift of prosperity. The drinker is blessed with a bright future.",
+
+"dragon-wine.name":"Dragon's Blood Wine",
+"dragon-wine.description":"Legendary blood flows through your veins igniting a fiery power. Use with extreme caution.",
+
+"moon-beam.name":"Moon Beam",
+"moon-beam.description":"Clears the drinker's mind and ensures them a restful sleep.",
+
+"ravenous-soul.name":"Ravenous Soul",
+"ravenous-soul.description":"What Did It Cost? Everything. Achieve enormous power, but at a terrible cost.",
+
+"witch-curse.name":"Witch's Curse",
+"witch-curse.description":"A blessing or a curse? Try your luck with this wicked potion. Side effects may vary.",
+
+"slime-cocktail.name":"Slime Cocktail",
+"slime-cocktail.description":"The liquid is still moving..."
+
+}

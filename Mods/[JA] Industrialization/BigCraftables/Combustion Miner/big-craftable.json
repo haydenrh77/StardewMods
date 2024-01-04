@@ -1,0 +1,42 @@
+{
+    "Name": "Combustion Miner",
+    "Description": "A weaker variant to the Auto Miner, takes coal as fuel.",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 3,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": "Brick",
+                "Count": 10
+            },
+            {
+                "Object": 726,
+                "Count": 1
+            },
+            {
+                "Object": 334,
+                "Count": 1
+            },
+            {
+                "Object": 338,
+                "Count": 2
+            },
+            {
+                "Object": 787,
+                "Count": 1
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+    "NameLocalization": {
+        "zh": "燃烧采矿机",
+        "de": "Verbrennungs-Bohrer"
+    },
+    "DescriptionLocalization": {
+        "zh": "自动采矿机的弱化版本，使用煤作为燃料。",
+        "de": "Eine schwächere Variante der Elektro-Bohrmaschine. Fördert weniger wertvolle Bodenschätze. Benötigt zum Betrieb 1 Kohle."
+    }
+}

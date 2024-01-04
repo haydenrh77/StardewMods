@@ -1,0 +1,68 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "Jrn.CaPCP/Collecting Pouch",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "Collecting Pouch": {
+          "DisplayName": "{{i18n: Collecting Pouch.name}}",
+          "Description": "{{i18n: Collecting Pouch.description}}",
+          "Image": "Jrn.CaPCP/Collecting Pouch",
+          "PlayerColor": false,
+          "OpenSound": "slingshot",
+          "IsPlaceable": false,
+          "BetterChestsData": {
+            "CollectItems": "Enabled",
+            "CustomColorPicker": "Disabled",
+            "FilterItems": "Enabled",
+            "FilterItemsList": [
+              "category_greens",
+              "category_flowers",
+              "category_fruits",
+              "category_vegetable",
+              "category_monster_loot",
+              "category_metal_resources",
+              "category_building_resources",
+              "category_minerals",
+              "category_gem",
+              "category_junk"
+            ],
+            "OpenHeldChest": "Enabled",
+            "ResizeChest": "Enabled",
+            "ResizeChestCapacity": 48
+          }
+        }
+      }
+    },
+
+    // Add Crafting Recipe
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Collecting Pouch": "74 1 386 250 428 20/Home/232/true/null/{{i18n: Collecting Pouch.name}}"
+      }
+    },
+
+    // Add Buyable
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Buy",
+      "Entries": {
+        "Collecting Pouch": {
+          "ShopID": "Casino",
+          "Price": 150000,
+          "IsRecipe": true
+        }
+      }
+    }
+  ] 
+}

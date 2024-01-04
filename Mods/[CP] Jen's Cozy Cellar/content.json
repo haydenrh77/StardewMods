@@ -1,0 +1,28 @@
+{
+  "Format": "1.11.0",
+   "ConfigSchema": {
+	"Furniture": {
+		"AllowValues": "True, False",
+		"Default": "True"
+	}
+	},
+  "Changes": [
+// Cellar
+	{
+	"Action": "Load",
+	"Target": "Maps/Cellar",
+	"FromFile": "assets/Cellar_Furniture.tbin",
+	"When": {
+		"Furniture": "True"
+	}
+	},
+	{
+	"Action": "Load",
+	"Target": "Maps/Cellar",
+	"FromFile": "assets/Cellar_Clean.tbin",
+	"When": {
+		"Furniture": "False"
+	}
+	},
+]
+}

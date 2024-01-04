@@ -1,0 +1,38 @@
+{
+    "Name": "JojaCola Generator",
+    "Description": "Pierre is smart, so smart infact, he invented a machine which uses Joja Cola as a fuel source, by adding 10 cans, you too can make 1 battery, I bet Morris feels envious.",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 9,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": 167,
+                "Count": 50
+            },
+            {
+                "Object": 335,
+                "Count": 10
+            },
+            {
+                "Object": 767,
+                "Count": 1
+            }
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Pierre",
+        "PurchasePrice": 150000
+    },
+    "CanPurchase": true,
+    "PurchaseFrom": "Pierre",
+    "PurchasePrice": 1000000,
+    "NameLocalization": {
+        "zh": "Joja可乐发电机",
+        "de": "JojaCola-Generator"
+    },
+    "DescriptionLocalization": {
+        "zh": "皮埃尔非常聪明，发明了一台能把Joja可乐作为燃料的机器，加入10罐可乐，你就能获得一块电池，莫里斯一定非常嫉妒。",
+        "de": "Eine vom ach so cleveren Pierre entwickelte Maschine. Wandelt 10x Dosen Joja-Cola in 1x Batterie um - Morris wird sicherlich neidisch sein."
+    }
+}

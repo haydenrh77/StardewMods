@@ -1,0 +1,17 @@
+{
+    "Name": "Pulverized Gold",
+    "Description": "Large pile of pure gold, must be smelted in an Electric Furnace.",
+    "Category": "Metal",
+    "Edibility": -300,
+    "Price": 100,
+    "IsColored": false,
+    "Recipe": null,
+    "NameLocalization": {
+        "zh": "金粉",
+        "de": "Goldpulver"
+    },
+    "DescriptionLocalization": {
+        "zh": "一大堆纯净的金粉，必须在电炉里冶炼。",
+        "de": "In Pulver zermahlenes reines Gold. Muss in einem Elektro-Ofen geschmolzen werden."
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "Name": "av adventurer's potion",
+    "Description": "?",
+    "TranslationKey":"adventurer-potion",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": 80,
+    "EdibleIsDrink": true,
+    "ContextTags": ["potion_item"],
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 2,
+        "Luck": 1,
+        "Foraging": 2,
+        "MaxStamina": 0,
+        "MagnetRadius": 25,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 1,
+        "Duration": 300,
+    },
+    "Price": 750,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 1500,
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "MarlonFey", "Dwarf"],
+        "Like": [],
+        "Neutral": ["Gunther", "Victor", "Alex", "Caroline", "Clint", "Demetrius", "Elliot", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Harvey", "Leah", "Lewis", "Olivia", "Shane", "Willy", "Gregory", "Joel", "Sheila", "Andy", "Claire", "Martin", "MorrisTod", "Susan", "Jas", "Leo", "Penny", "Sebastian", "Vincent", "Morgan", "Sophia", "Apples", "Peaches", "Krobus", "Wizard"],
+        "Dislike":[],
+        "Hate": []
+    }
+}

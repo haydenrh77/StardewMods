@@ -1,0 +1,19 @@
+{
+  "PregnancyData": [],
+  "AnimalData": [],
+  "AnimalContestData": [
+    {
+      "EventId": 657201026,
+      "_date": "26 spring Y1",
+      "Contenders": [
+        "Marnie"
+      ],
+      "VincentAnimal": null,
+      "MarnieAnimal": null,
+      "PlayerAnimal": null,
+      "Winner": "Marnie",
+      "ParticipantId": null,
+      "FarmAnimalScore": null
+    }
+  ]
+}

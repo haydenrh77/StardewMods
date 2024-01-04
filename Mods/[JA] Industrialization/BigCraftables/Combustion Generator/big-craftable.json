@@ -1,0 +1,38 @@
+{
+    "Name": "Combustion Generator",
+    "Description": "A Generator that converts 3 coal into 1 batt. pack or Solar & Void essence to produce 3 Batt. Packs.",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 6,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": "Brick",
+                "Count": 4
+            },
+            {
+                "Object": 335,
+                "Count": 3
+            },
+            {
+                "Object": 338,
+                "Count": 3
+            },
+            {
+                "Object": 767,
+                "Count": 8
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+    "NameLocalization": {
+        "zh": "燃烧发电机",
+        "de": "Verbrennungs-Generator"
+    },
+    "DescriptionLocalization": {
+        "zh": "将5块煤变成1个电池组的发电机，也可以将1个太阳精华和虚空精华变成3个电池组。",
+        "de": "Ein Generator, der Batterien produziert. Benötigt zum Betrieb 5x Kohle für 1x Batterie - alternativ 1x Sonnen- oder Schattenessenz für 3 Batterien."
+    }
+}

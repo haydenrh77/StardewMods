@@ -1,0 +1,14 @@
+{
+    "Name": "CP Nicer Sewer",
+    "Author": "LemurKat",
+    "Version": "1.2.3",
+    "Description": "Turns the Sewer into a pleasant place to hang out",
+    "UniqueID": "LemurKat.CleanerSewer.CP",
+    "UpdateKeys": ["Nexus:5751"],
+    "MinimumApiVersion": "1.0",
+        "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"	
+    }
+    
+   
+ }

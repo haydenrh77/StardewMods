@@ -1,0 +1,46 @@
+[
+	{
+		"Id": "Jrn.CaP.FarmingBasketRecipe",
+		"Text": "FarmingBasket.text",
+		"Recipe": "Farming Basket",
+		"WhichBG": 1,
+		"TextColor": 6,
+		"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 2 }
+		],
+	},
+	{
+		"Id": "Jrn.CaP.ForagingBasketRecipe",
+		"Text": "ForagingBasket.text",
+		"Recipe": "Foraging Basket",
+		"WhichBG": 1,
+		"TextColor": 5,
+		"SkillConditions": 
+		[
+			{ "SkillName": "Foraging", "SkillLevel": 2 }
+		],
+	},
+	{
+		"Id": "Jrn.CaP.FishingPouchRecipe",
+		"Text": "FishingPouch.text",
+		"Recipe": "Fishing Pouch",
+		"WhichBG": 1,
+		"TextColor": 1,
+		"SkillConditions": 
+		[
+			{ "SkillName": "Fishing", "SkillLevel": 2 }
+		],
+	},
+	{
+		"Id": "Jrn.CaP.MiningPouchRecipe",
+		"Text": "MiningPouch.text",
+		"Recipe": "Mining Pouch",
+		"WhichBG": 1,
+		"TextColor": 8,
+		"SkillConditions": 
+		[
+			{ "SkillName": "Mining", "SkillLevel": 2 }
+		],
+	}
+]

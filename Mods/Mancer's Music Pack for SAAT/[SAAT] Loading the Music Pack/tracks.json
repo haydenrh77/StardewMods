@@ -1,0 +1,39 @@
+[
+//BH and MI
+    {
+        "Id": "HidValBH",
+        "Filepath": "MapMusic/hiddenvalleyadven.wav",
+        "Category": "Music",
+        "Settings": {
+            "Loop": true,
+            "AddToJukebox": false
+        }
+    },
+    {
+        "Id": "MITimeMI",
+        "Filepath": "MapMusic/mermaidislandtime.wav",
+        "Category": "Music",
+        "Settings": {
+            "Loop": true,
+            "AddToJukebox": false
+        }
+    },
+    {
+        "Id": "MystMinesBH",
+        "Filepath": "MapMusic/mysteriousmines.wav",
+        "Category": "Music",
+        "Settings": {
+            "Loop": true,
+            "AddToJukebox": false
+        }
+    },
+    {
+        "Id": "SumMarkMI",
+        "Filepath": "MapMusic/summermarket.wav",
+        "Category": "Music",
+        "Settings": {
+            "Loop": true,
+            "AddToJukebox": false
+        }
+    },
+]

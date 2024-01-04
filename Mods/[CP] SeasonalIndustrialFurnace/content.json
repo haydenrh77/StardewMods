@@ -1,0 +1,21 @@
+{
+	"Format": "1.24.0",
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Buildings/Industrial Furnace",
+			"FromFile": "assets/{{season}}_IndustrialFurnaceOff.png",
+			"When": {
+				"Season": "fall, winter"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Traktori.IndustrialFurnace/FurnaceOn",
+			"FromFile": "assets/{{season}}_IndustrialFurnaceOn.png",
+			"When": {
+				"Season": "fall, winter"
+			}
+		}
+	]
+}

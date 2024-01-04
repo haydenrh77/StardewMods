@@ -1,0 +1,27 @@
+{
+   "Changes": [
+   {
+	"Action": "EditData",
+    "Target": "Strings/StringsFromMaps",
+    "Entries": {
+		"IslandBaitShop.1": "It's a very beautiful goldfish.",
+		"IslandBaitShop.2": "It's spotless.",
+		"IslandBaitShop.3": "Her kois seem very happy and healthy.",
+		"IslandBaitShop.4": "It has Slime in it.",
+		"IslandBaitShop.5": "There is a lot of fish.",
+		"IslandBaitShop.6": "How to play the flute.",
+		"IslandBaitShop.7": "Music bookcase read only: ^Iron Mermaiden, ^Lada del Rain, ^Yonaka, ^Emma Shapplin, ^Florence + The Recycling Machine, ^Hooverphonic, ^Claire Merguire, ^Within Temptation, ^FleetSea Mac.",
+		"IslandBaitShop.8": "Song book  - by Shireen Baratheon ^It's always summer, under the sea ^I know, I know, oh, oh, oh ^The birds have scales, and the fish take wing ^I know, I know, oh, oh, oh ^The rain is dry, and the snow falls up ^I know, I know, oh, oh, oh ^The stones crack open, the water burns ^The shadows come to dance, my love ^The shadows come to play ^The shadows come to dance, my love ^The shadows come to stay",
+		"Island.1": "Summer Market - every summer on 15th and 16th!",
+		"IslandSummerMarket.1": "Summer Market - From 6 AM to 7 PM, come check our goods from Ghibli Town!",
+		"Island.2": "The trees in this area are under Ferngill Environment Agency protection, no chopping is allowed.",
+		"Island.3": "It's locked.",
+		"Island.4": "Reef rehabilitated by the Ferngill Environment Agency, no littering is allowed.",
+		"Island.5": "It's so decrepit, it's no longer seaworthy. Can't use it anymore.",
+		"summermarket": "Help yourself with our delicious salads!.",
+		"SMClosed": "Come Back Tomorrow before 10PM.",
+		},
+		}
+		],
+}
+	

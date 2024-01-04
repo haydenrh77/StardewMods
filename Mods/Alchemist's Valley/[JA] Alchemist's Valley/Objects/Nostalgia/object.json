@@ -1,0 +1,38 @@
+{
+    "Name": "av nostalgia",
+    "Description": "?",
+    "TranslationKey":"nostalgia",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": 20,
+    "EdibleIsDrink": true,
+    "ContextTags": ["potion_item"],
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": -2,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 70
+    },
+    "Price": 900,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 1800,
+    "GiftTastes":
+    {
+        "Love": ["George", "Lewis", "Evelyn", "Linus", "Dwarf", "Jodi", "Kent", "Olivia", "Sam", "Shane", "Pam", "Sebastian"],
+        "Like": ["Gunther", "Victor", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliot", "Emily", "Gus", "Haley", "Jodi", "Marnie", "Maru", "Pierre", "Robin", "Sandy", "Harvey", "Leah", "Willy", "Gregory", "Joel", "Sheila", "Andy", "Claire", "MarlonFey", "Martin", "MorrisTod", "Susan", "Penny", "Sebastian", "Sophia", "Apples", "Peaches", "Krobus", "Wizard"],
+        "Neutral": [],
+        "Dislike":[],
+        "Hate": ["Jas", "Leo", "Vincent", "Morgan"]
+    }
+}

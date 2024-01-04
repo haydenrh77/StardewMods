@@ -1,0 +1,12 @@
+{
+   "Name": "Industrialization for SDV",
+   "Author": "DraLUSAD, Kazuakisama",
+   "Description": "Adds factory like machines",
+   "Version": "3.4.0",
+   "MinimumApiVersion": "3.0.1",
+   "UniqueID": "Kazuakisama.JA.Industrialization",
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+"UpdateKeys": [ "Nexus:5102" ],
+}

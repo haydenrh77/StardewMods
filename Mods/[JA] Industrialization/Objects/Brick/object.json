@@ -1,0 +1,17 @@
+{
+    "Name": "Brick",
+    "Description": "Highly durable brick, used in crafting various machines.",
+    "Category": "Metal",
+    "Edibility": -300,
+    "Price": 6,
+    "IsColored": false,
+    "Recipe": null,
+    "NameLocalization": {
+        "zh": "红砖",
+        "de": "Ziegel"
+    },
+    "DescriptionLocalization": {
+        "zh": "坚固耐用的砖块，可以用来制作多种机器。",
+        "de": "Ein gebrannter Ziegel. Sehr nützlich beim Bau der verschiedensten Maschinen."
+    }
+}

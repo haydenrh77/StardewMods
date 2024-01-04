@@ -1,0 +1,46 @@
+{
+    "Name": "Industrial Distillery",
+    "Description": "Larger more efficent Keg, takes 5 of the same item, and does it at twice the speed, keeps quality and sell value increased.",
+    "Price": 0,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 6,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": "Brick",
+                "Count": 8
+            },
+            {
+                "Object": "Chromium Bar",
+                "Count": 1
+            },
+            {
+                "Object": 709,
+                "Count": 2
+            },
+            {
+                "Object": 336,
+                "Count": 1
+            },
+            {
+                "Object": 725,
+                "Count": 1
+            },
+            {
+                "Object": 787,
+                "Count": 1
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+    "NameLocalization": {
+        "zh": "工业酿酒厂",
+        "de": "Industrie-Destille"
+    },
+    "DescriptionLocalization": {
+        "zh": "远比小桶高效，同时处理5倍的相同物品，并且有两倍的速度，保持质量，增加售价。",
+        "de": "Größere und effizientere Art eines Fasses. Erzeugt Handwerksgüter mit 2-facher Geschwindigkeit und gleicher Qualität. Benötigt das 5-fache Eingangsmaterial."
+    }
+}

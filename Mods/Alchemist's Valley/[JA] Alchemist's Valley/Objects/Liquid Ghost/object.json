@@ -1,0 +1,38 @@
+{
+    "Name": "av liquid ghost",
+    "Description": "?",
+    "TranslationKey":"liquid-ghost",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": 10,
+    "EdibleIsDrink": true,
+    "ContextTags": [ "potion_item" ],
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": -3,
+        "Foraging": 0,
+        "MaxStamina": -30,
+        "MagnetRadius": 0,
+        "Speed": 3,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 200,
+    },
+    "Price": 425,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 850,
+    "GiftTastes":
+    {
+        "Love": ["Krobus"],
+        "Like": ["Abigail", "Sebastian", "Wizard"],
+        "Neutral": ["Dwarf"],
+        "Dislike":[],
+        "Hate": ["Gunther", "Victor", "Alex", "Caroline", "Clint", "Demetrius", "Elliot", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Harvey", "Leah", "Lewis", "Olivia", "Shane", "Willy", "Gregory", "Joel", "Sheila", "Andy", "Claire", "MarlonFey", "Martin", "MorrisTod", "Susan", "Jas", "Leo", "Penny", "Sebastian", "Vincent", "Morgan", "Sophia", "Apples", "Peaches"]
+    }
+}

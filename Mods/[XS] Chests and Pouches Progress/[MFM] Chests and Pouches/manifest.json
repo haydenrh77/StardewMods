@@ -1,0 +1,11 @@
+﻿{
+	"Name": "[MFM] Chests and Pouches",
+	"Author": "Jearen",
+	"Version": "5.0.0",
+	"Description": "For the recipes that come by mail. (Required)",
+	"UniqueID": "Jrn.CaPMFM",
+	"UpdateKeys": [ "Nexus:4089" ],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	},
+}

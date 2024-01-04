@@ -1,0 +1,49 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "Jrn.CaPCP/Mining Pouch",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "Mining Pouch": {
+          "DisplayName": "{{i18n: Mining Pouch.name}}",
+          "Description": "{{i18n: Mining Pouch.description}}",
+          "Image": "Jrn.CaPCP/Mining Pouch",
+          "PlayerColor": false,
+          "OpenSound": "slingshot",
+          "IsPlaceable": false,
+          "BetterChestsData": {
+            "CollectItems": "Enabled",
+            "CustomColorPicker": "Disabled",
+            "FilterItems": "Enabled",
+            "FilterItemsList": [
+              "category_monster_loot",
+              "category_metal_resources",
+              "category_building_resources",
+              "category_minerals"
+            ],
+            "OpenHeldChest": "Enabled",
+            "ResizeChest": "Enabled",
+            "ResizeChestCapacity": 12
+          }
+        }
+      }
+    },
+
+    // Add Crafting Recipe
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Mining Pouch": "382 8 771 35 86 2/Home/232/true/null/{{i18n: Mining Pouch.name}}"
+      }
+    }
+  ] 
+}

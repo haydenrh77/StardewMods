@@ -1,0 +1,49 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "Jrn.CaPCP/Golden Dwarf Chest",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "Golden Dwarf Chest": {
+          "DisplayName": "{{i18n: Golden Dwarf Chest.name}}",
+          "Description": "{{i18n: Golden Dwarf Chest.description}}",
+          "Image": "Jrn.CaPCP/Golden Dwarf Chest",
+          "PlayerColor": true,
+          "BetterChestsData": {
+            "ResizeChest": "Enabled",
+            "ResizeChestCapacity": 72
+          }
+        }
+      }
+    },
+
+    // Add Crafting Recipe
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Golden Dwarf Chest": "709 20 336 8 96 1 97 1 98 1 99 1 768 50 769 50/Home/232/true/null/{{i18n: Golden Dwarf Chest.name}}"
+      }
+    },
+
+    // Add Buyable
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Buy",
+      "Entries": {
+        "Golden Dwarf Chest": {
+          "ShopID": "VolcanoShop",
+          "Price": 32000
+        }
+      }
+    }
+  ] 
+}

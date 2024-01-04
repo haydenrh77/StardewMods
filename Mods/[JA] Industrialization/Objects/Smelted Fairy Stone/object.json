@@ -1,0 +1,9 @@
+{
+    "Name": "Smelted Fairy Stone",
+    "Description": "Fairy Stone that has been melted down and refined",
+    "Category": "Metal",
+    "Edibility": -300,
+    "Price": 500,
+    "IsColored": false,
+    "Recipe": null,
+}

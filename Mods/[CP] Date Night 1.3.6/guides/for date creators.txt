@@ -1,0 +1,138 @@
+FOR DATE CREATORS:
+
+There are two template files in this folder - GenericOverrideExample.json and UniqueDates.json. Before releasing, make sure to rename your files to the Spouse's name that you are writing for!
+
+These folders are meant to be placed in the data/Custom/GenericOverride and data/Custom/Unique folders respectively.
+
+This is not an event coding tutorial. Please check StardewValleyWiki for help on writing events: https://stardewvalleywiki.com/Modding:Event_data
+
+FOR ALL EVENTS: If you do not want to write multiple events for suggestive/non-suggesitve, just remove the "SuggestiveEndings" field in the "When" section of the date.
+
+********** GENERIC OVERRIDES: **********
+
+The template provided is for overriding the Saloon Date. Everything can be changed except for the event ids and mail ids, which are required for Event Repeater to work.
+
+There are 6 Generic Dates you can override. The IDs are shown below:
+
+	1116009, //Saloon Initiation
+	1116010, //Saloon Date
+
+	1116011, //Picnic Initiation
+	1116012, //Picnic Date
+
+	1116013, //Library Initiation
+	1116014, //Library Date
+
+	1116019, //Dance Date (Only Occurs 1st Of Every Month)
+
+	1116020, //Beach Initiation
+	1116021, //Beach Date
+	1116022, //Swimming Bug Fix
+
+	1116023, //Grocery Initiation
+	1116024, //Grocery Date
+
+	1116025, //Camping Initation
+	1116026, //Camping Date
+
+These are the mail flags set when the player accepts a date.
+
+	"saloonDateAgree",
+	"forestDateAgree",
+	"libraryDateAgree",
+	"beachDateAgree",
+	"swimmingDateFix", //used only if the player will end up swimming at the end of an event. Signals the use of event 1116022 (Swimming Bug Fix)
+	"groceryDateAgree",
+	"campingDateAgree",
+
+Please look at data/generic for the dates that are already made if you'd like to just alter dialogue or look at how each date is formatted.
+
+If you want to add another override, simply copy the Saloon Template and paste it again below the event you have already made. Then, change the event ID to match one above, and change the mail flag set when the player agrees to the corresponding flag.
+
+NOTE: The dance date does not have a "date" event - you could say the initiation event is the actual date.
+
+Finally, change the "When" condition on the initiation event to the generic event you'd like to override next. Valid values are:
+
+saloon, forest, library, dance, beach, grocery, camping
+
+********* UNIQUE DATES: **********
+
+Each Custom NPC can have up to 20 unique dates. The event ids used for the 20 dates are:
+
+	1117001, //Unique 1 Initiation
+	1117101, //Unique 1 Date
+	1117002, //Unique 2 Initiation
+	1117102, //Unique 2 Date
+	1117003, //Unique 3 Initiation
+	1117103, //Unique 3 Date
+	1117004, //Unique 4 Initiation
+	1117104, //Unique 4 Date
+	1117005, //Unique 5 Initiation
+	1117105, //Unique 5 Date
+	1117006, //Unique 6 Initiation
+	1117106, //Unique 6 Date
+	1117007, //Unique 7 Initiation
+	1117107, //Unique 7 Date
+	1117008, //Unique 8 Initiation
+	1117108, //Unique 8 Date
+	1117009, //Unique 9 Initiation
+	1117109, //Unique 9 Date
+	1117010, //Unique 10 Initiation
+	1117110, //Unique 10 Date
+	1117011, //Unique 11 Initiation
+	1117111, //Unique 11 Date
+	1117012, //Unique 12 Initiation
+	1117112, //Unique 12 Date
+	1117013, //Unique 13 Initiation
+	1117113, //Unique 13 Date
+	1117014, //Unique 14 Initiation
+	1117114, //Unique 14 Date
+	1117015, //Unique 15 Initiation
+	1117115, //Unique 15 Date
+	1117016, //Unique 16 Initiation
+	1117116, //Unique 16 Date
+	1117017, //Unique 17 Initiation
+	1117117, //Unique 17 Date
+	1117018, //Unique 18 Initiation
+	1117118, //Unique 18 Date
+	1117019, //Unique 19 Initiation
+	1117119, //Unique 19 Date
+	1117020, //Unique 20 Initiation
+	1117120, //Unique 20 Date
+
+The mail flags set when accepting are:
+
+	"unique1Agree",
+	"unique2Agree",
+	"unique3Agree",
+	"unique4Agree",
+	"unique5Agree",
+	"unique6Agree",
+	"unique7Agree",
+	"unique8Agree",
+	"unique9Agree",
+	"unique10Agree",
+	"unique11Agree",
+	"unique12Agree",
+	"unique13Agree",
+	"unique14Agree",
+	"unique15Agree",
+	"unique16Agree",
+	"unique17Agree",
+	"unique18Agree",
+	"unique19Agree",
+	"unique20Agree",
+
+Everything about the date can be changed. If there are certain conditions to when the date can/cannot be done then add them as event conditions for initiation. 
+
+If you want to add another override, simply copy the Unique 1 Template and paste it again below the event you have already made. Then, change the event ID to match one above, and change the mail flag set when the player agrees to the corresponding flag.
+
+Finally, change the "UniqueDateType" field in the "When" field. It takes one of the following:
+
+unique1,unique2,unique3,unique4,unique5,unique6,unique7,unique8,unique9,unique10,unique11,unique12,unique13,unique14,unique15,unique16,unique17,unique18,unique19,unique20
+
+*IF you have not assigned all 20 dates you may notice that you aren't getting your date as often as you like - this is because the game rolls an empty date. You can change the UniqueDateType field to include multiple flags to increase the chance of getting the date among the unique dates - if you only have one it is advised to have the field contain all like so:
+
+"UniqueDateType": "unique1,unique2,unique3,unique4,unique5,unique6,unique7,unique8,unique9,unique10,unique11,unique12,unique13,unique14,unique15,unique16,unique17,unique18,unique19,unique20"
+
+*NOTE: If you are adding unique dates for vanilla spouses Emily, Alex, Maru, or Haley (who already have events), then your file will overrite their events as well. If you'd like to keep them, then you can copy them from the original file and reassign the dates to a "unique" id. (Including changing the "When" file).

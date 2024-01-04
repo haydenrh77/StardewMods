@@ -1,0 +1,38 @@
+{
+    "Name": "av mermaid's song",
+    "Description": "?",
+    "TranslationKey":"mermaid-song",
+    "Category": "ArtisanGoods",
+    "CategoryTextOverride": "Potion",
+    "Edibility": 60,
+    "EdibleIsDrink": true,
+    "ContextTags": ["potion_item"],
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 5,
+        "Mining": 0,
+        "Luck": 2,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 300,
+    },
+    "Price": 750,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Willy",
+    "PurchasePrice": 1500,
+    "GiftTastes":
+    {
+        "Love": ["Willy", "Elliot", "Leo"],
+        "Like": ["Gunther", "Victor", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Harvey", "Leah", "Lewis", "Olivia", "Shane", "Gregory", "Joel", "Sheila", "Andy", "Claire", "MarlonFey", "Martin", "MorrisTod", "Susan", "Jas", "Leo", "Penny", "Sebastian", "Vincent", "Morgan", "Sophia", "Apples", "Peaches", "Krobus", "Wizard", "Dwarf"],
+        "Neutral": [],
+        "Dislike":[],
+        "Hate": []
+    }
+}

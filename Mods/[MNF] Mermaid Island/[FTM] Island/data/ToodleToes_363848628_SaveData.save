@@ -1,0 +1,125 @@
+{
+  "WeatherForYesterday": "Sunny",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Custom_MermaidIsland",
+      "Name": null,
+      "Tile": "23, 32",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "PercentChanceToSpawn": 10.0,
+        "Contents": [
+          118
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_MermaidIsland",
+      "Name": "Tangerine",
+      "Tile": "19, 26",
+      "Type": "Forage",
+      "ID": 3715,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_MermaidIsland",
+      "Name": "Tangerine",
+      "Tile": "12, 19",
+      "Type": "Forage",
+      "ID": 3715,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_MermaidIsland",
+      "Name": "Tangerine",
+      "Tile": "15, 25",
+      "Type": "Forage",
+      "ID": 3715,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_MermaidIsland",
+      "Name": null,
+      "Tile": "35, 30",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "Contents": [
+          "Mosasaur Rib",
+          "Mosasaur Humerus"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_MermaidIsland",
+      "Name": null,
+      "Tile": "17, 22",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "Contents": [
+          "Mosasaur Rib",
+          "Mosasaur Humerus"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_MermaidIsland",
+      "Name": null,
+      "Tile": "24, 30",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "Contents": [
+          "Mosasaur Fibula",
+          "Mosasaur Phalanges"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_MermaidIsland",
+      "Name": null,
+      "Tile": "41, 26",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "Contents": [
+          "Mosasaur Fibula",
+          "Mosasaur Phalanges"
+        ]
+      },
+      "MonType": null
+    }
+  ]
+}

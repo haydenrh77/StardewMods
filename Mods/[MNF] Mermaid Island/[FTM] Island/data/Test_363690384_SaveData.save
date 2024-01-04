@@ -1,0 +1,41 @@
+{
+  "WeatherForYesterday": "Sunny",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Custom_MermaidIsland",
+      "Name": null,
+      "Tile": "24, 31",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "Contents": [
+          "Mosasaur Rib",
+          "Mosasaur Humerus"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_MermaidIsland",
+      "Name": null,
+      "Tile": "34, 20",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "Contents": [
+          "Mosasaur Rib",
+          "Mosasaur Humerus"
+        ]
+      },
+      "MonType": null
+    }
+  ]
+}

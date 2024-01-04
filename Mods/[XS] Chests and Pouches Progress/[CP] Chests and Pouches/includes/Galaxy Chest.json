@@ -1,0 +1,51 @@
+{
+  "Changes": [
+    // Load Texture
+    {
+      "Action": "Load",
+      "Target": "Jrn.CaPCP/Galaxy Chest",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+
+    // Load Storage Data
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Storages",
+      "Entries": {
+        "Galaxy Chest": {
+          "DisplayName": "{{i18n: Galaxy Chest.name}}",
+          "Description": "{{i18n: Galaxy Chest.description}}",
+          "Image": "Jrn.CaPCP/Galaxy Chest",
+          "PlayerColor": true,
+          "SpecialChestType": "JunimoChest",
+          "BetterChestsData": {
+            "ResizeChest": "Enabled",
+            "ResizeChestCapacity": -1
+          }
+        }
+      }
+    },
+
+    // Add Crafting Recipe
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Galaxy Chest": "848 250 896 5 279 5 336 150 337 150 910 75 768 500 769 500/Home/232/true/null/{{i18n: Galaxy Chest.name}}"
+      }
+    },
+
+    // Add Buyable
+    {
+      "Action": "EditData",
+      "Target": "furyx639.ExpandedStorage/Buy",
+      "Entries": {
+        "Galaxy Chest": {
+          "ShopID": "QiGemShop",
+          "Price": 125,
+          "IsRecipe": true
+        }
+      }
+    }
+  ] 
+}

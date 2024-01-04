@@ -1,0 +1,153 @@
+{
+	"Format": "1.20.0",
+
+	"ConfigSchema": {
+	
+		"ESReplace":{"AllowValues": "true, false",
+					"Default": "true",
+					"Description": "Enable/disable East Scarp Obelisk retexture" },
+		"SHReplace":{"AllowValues": "true, false",
+					"Default": "true",
+					"Description": "Enable/disable Slim Hutch retexture" },
+		"SHoption":{"AllowValues": "1, 2",
+					"Default": "1",
+					"Description": "Choose what design for Slim Hutch you want" },
+		"SHfoliage":{"AllowValues": "more, less",
+					"Default": "more",
+					"Description": "Choose how much foliage/overgrowth you want" },
+		"GarageReplace":{"AllowValues": "true, false",
+					"Default": "true",
+					"Description": "Enable/disable Tractor Garage retexture" },
+		"GarageOption":{"AllowValues": "1, 2, 3",
+					"Default": "1",
+					"Description": "Choose what design for Garage you want" },
+		"GarageFoliage":{"AllowValues": "more, less",
+					"Default": "more",
+					"Description": "Choose how much foliage/overgrowth you want" },
+					
+		"SpringPetals":{"AllowValues": "true, false",
+					"Default": "true",
+					"Description": "Adds flower petals in spring when it's windy" },
+					
+		"FallColor":{"AllowValues": "1, 2",
+					"Default": "1",
+					"Description": "To match recolor mods that have that option -> green(1) orange(2)" },
+		"RecolourOverwrite":{"AllowValues": "Vanilla, DNEarthyRecolour, Eemie's, FoliageRedone, Starblue, VibrantPastoral, WittilyNamed",
+					"AllowBlank": true,
+					"Default": "",
+					"Description": "If you want to manually change recolor palette" },
+	},
+	
+	
+	"DynamicTokens": [
+	//checking what recolour is used
+		{
+		"Name": "Recolour",
+		"Value": "Vanilla",
+		},
+		{
+		"Name": "Recolour",
+		"Value": "DNEarthyRecolour",
+			"When": { "HasMod": "DaisyNiko.EarthyRecolour" },
+		},
+		{
+		"Name": "Recolour",
+		"Value": "Eemie's",
+			"When": { "HasMod": "minervamaga.CP.eemieMapRecolour" },
+		},
+		{
+		"Name": "Recolour",
+		"Value": "FoliageRedone",
+			"When": { "HasMod": "stardewfoliageredone" },
+		},{
+		"Name": "Recolour",
+		"Value": "Starblue",
+			"When": { "HasMod": "Lita.StarblueValley" },
+		},
+		{
+		"Name": "Recolour",
+		"Value": "VibrantPastoral",
+			"When": { "HasMod": "grapeponta.VibrantPastoralRecolor" },
+		},
+		{
+		"Name": "Recolour",
+		"Value": "WittilyNamed",
+			"When": { "HasMod": "Acerbicon.Recolor" },
+		},
+
+	//recolor overwrite
+		{
+		"Name": "Recolour",
+		"Value": "{{RecolourOverwrite}}",
+			"When": { "RecolourOverwrite |contains=Vanilla, DNEarthyRecolour, Eemie's, FoliageRedone, FoliageRedoneReshade, Starblue, VibrantPastoral, WittilyNamed": true },
+		},
+	//fall color overwrite
+		{
+		"Name": "Recolour",
+		"Value": "{{Recolour}}/{{FallColor}}",
+			"When": { "Recolour |contains=Eemie's, VibrantPastoral": true,
+					"Season": "fall" },
+		},
+	//Spring Petals overwrite
+		{
+		"Name": "Pollen",
+		"Value": "false",
+		},
+		{
+		"Name": "Pollen",
+		"Value": "true",
+			"When": { "season": "spring",
+					"weather": "wind",
+					"SpringPetals": "true" },
+		},
+		
+	],
+
+	"Changes": [
+	
+		{
+		"LogName": "Slim Hutch edit",
+		"Action": "EditImage",
+		"Target": "Buildings/Slime Hutch",
+		"FromFile": "assets/{{Recolour}}/{{season}}_{{SHoption}}_{{SHfoliage}}.png",
+			"When": { "SHReplace": "true",
+					"HasMod": "Wellbott.SlimHutchCode" },
+		},
+		{
+		"LogName": "Slim Hutch petals",
+		"Action": "EditImage",
+			"PatchMode": "Overlay",
+		"Target": "Buildings/Slime Hutch",
+		"FromFile": "assets/{{Recolour}}/{{season}}_{{SHoption}}_{{SHfoliage}}.png",
+			"When": { "SHReplace": "true",
+					"HasMod": "Wellbott.SlimHutchCode",
+					"Pollen": "true" },
+		},
+		{
+		"LogName": "East Scarp Obelisk",
+		"Action": "EditImage",
+		"Target": "Buildings/Scarp Obelisk",
+		"FromFile": "assets/{{Recolour}}/ES/{{season}}.png",
+			"When": { "ESReplace": "true",
+					"HasMod": "LemurKat.EastScarpe.CP" },
+		},
+		{
+		"LogName": "East Scarp Obelisk",
+		"Action": "EditImage",
+			"PatchMode": "Overlay",
+		"Target": "Buildings/Scarp Obelisk",
+		"FromFile": "assets/{{Recolour}}/ES/es.png",
+			"When": { "ESReplace": "true",
+					"HasMod": "LemurKat.EastScarpe.CP",
+					"Pollen": "true" },
+		},
+		{
+		"LogName": "Tractor Garage",
+		"Action": "EditImage",
+		"Target": "Mods/Pathoschild.TractorMod/garage",
+		"FromFile": "assets/{{Recolour}}/Garage/{{GarageOption}}_{{GarageFoliage}}/{{season}}_garage.png",
+			"When": { "GarageReplace": "true",
+					"HasMod": "Pathoschild.TractorMod" },
+		},
+	]
+}
