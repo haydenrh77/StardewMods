@@ -6,12 +6,10 @@ if not exist "PortableGit\" (
     del PortableGit-2.39.2-64-bit.7z.exe
 	.\PortableGit\bin\git.exe init .
 	.\PortableGit\bin\git.exe remote add origin https://github.com/haydenrh77/StardewMods.git
-	.\PortableGit\bin\git.exe fetch --all
-	.\PortableGit\bin\git.exe reset --hard origin/main
-	
-	.\PortableGit\bin\git.exe pull origin main
 )
 
+.\PortableGit\bin\git.exe fetch --all
+.\PortableGit\bin\git.exe reset --hard origin/main
 .\PortableGit\bin\git.exe pull origin main
 
 exit
