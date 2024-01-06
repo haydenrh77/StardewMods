@@ -12,4 +12,6 @@ if not exist "PortableGit\" (
 .\PortableGit\bin\git.exe reset --hard origin/main
 .\PortableGit\bin\git.exe pull origin main
 
+echo done
+pause
 exit
